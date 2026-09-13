@@ -51,16 +51,19 @@ update.
 
 ### Option B — from the Cloudflare dashboard (no local tooling)
 
-**Workers & Pages → Create → Import a repository →** pick `seyaa-exhibition`, then:
+**Workers & Pages → Create → Import a repository →** pick `seyaa-exhibition`.
+Cloudflare's auto-detected defaults — build `npm run build`, deploy
+`npx wrangler deploy` — are correct as they stand, because `npm run build` is
+wired to `opennextjs-cloudflare build` rather than a bare `next build`.
 
-| Field | Value |
-| --- | --- |
-| Production branch | the branch holding this code |
-| Build command | `npx opennextjs-cloudflare build` |
-| Deploy command | `npx wrangler deploy` |
-| Root directory | *(leave empty)* |
+Cloudflare then rebuilds and redeploys on every push to the production branch.
 
-Cloudflare then rebuilds and redeploys on every push to that branch.
+> **Why `build` is not `next build`.** `wrangler deploy` needs the worker under
+> `.open-next/`, which only `opennextjs-cloudflare build` produces — a bare
+> `next build` fails with *"Could not find compiled Open Next config"*. OpenNext
+> in turn shells out to `npm run build` by default, so `open-next.config.ts`
+> pins its inner command to `next build` to stop the two recursing. Use
+> `npm run build:next` if you ever want a plain Next.js build.
 
 ### Checking it locally first
 
