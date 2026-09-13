@@ -69,7 +69,7 @@ async function buildDoc(items: PdfItem[]) {
     doc.setTextColor(28);
     doc.setFont("helvetica", "bold");
     doc.setFontSize(13);
-    doc.text(`SR ${q.srNo}`, margin, y);
+    doc.text(`Stock ${q.srNo}`, margin, y);
     doc.setFont("helvetica", "normal");
     doc.setFontSize(10);
     doc.setTextColor(120);
@@ -91,7 +91,7 @@ async function buildDoc(items: PdfItem[]) {
         ["Net Wt", q.netWeight],
         ["Diamond Wt", q.totalDiamondWeight],
         ["Diamond Pcs", q.totalStonePcs],
-        ["Diamond Size", q.diamondSize],
+        ["Diamond Size / Sieve", q.diamondSize],
         ["Location", q.location],
       ] as [string, string | number | undefined][]
     )
@@ -288,7 +288,7 @@ export async function exportStockPdf(items: PdfItem[]): Promise<void> {
 
 function buildFilename(items: PdfItem[]): string {
   const tags = items
-    .map((it) => `SR${it.quotation.srNo}`.replace(/[^a-zA-Z0-9]/g, ""))
+    .map((it) => it.quotation.srNo.replace(/[^a-zA-Z0-9]/g, ""))
     .join("-");
   return `seyaa-${tags}.pdf`;
 }

@@ -1,64 +1,1990 @@
 [
   {
-    "srNo": "773",
-    "sourceTab": "Sheet1",
-    "design": "HALO RADIANT RING",
-    "location": "USA",
-    "type": "RING",
-    "goldDetails": "14K WHITE",
-    "inchSize": "US 7",
-    "grossWeight": 3.84,
-    "netWeight": 3.452,
-    "totalDiamondWeight": 1.94,
-    "totalStonePcs": 29,
-    "diamondSize": "MIX",
-    "price": {
-      "totalUsd": 739.2
-    },
-    "lineItems": []
-  },
-  {
-    "srNo": "916",
-    "sourceTab": "Sheet1",
-    "design": "OVAL PEAR RING",
-    "location": "USA",
-    "type": "RING",
-    "goldDetails": "14K WHITE",
-    "inchSize": "US 7",
-    "grossWeight": 1.92,
-    "netWeight": 1.65,
-    "totalDiamondWeight": 1.36,
-    "totalStonePcs": 3,
-    "diamondSize": "MIX",
-    "price": {
-      "totalUsd": 412.5
-    },
-    "lineItems": []
-  },
-  {
-    "srNo": "996",
-    "sourceTab": "Sheet1",
-    "design": "TUBE ROUND BRACELET",
-    "location": "USA",
+    "srNo": "1002",
+    "sourceTab": "MERGED STOCK",
+    "design": "TUBE BRACELET",
+    "location": "HK",
     "type": "BRACELET",
+    "sourceFile": "HK Stock",
     "goldDetails": "14K WHITE",
-    "inchSize": "7 INCH",
-    "grossWeight": 16.3,
-    "netWeight": 13.82,
-    "totalDiamondWeight": 12.4,
+    "inchSize": "8 INCH",
+    "grossWeight": 16.04,
+    "netWeight": 12.97,
+    "totalDiamondWeight": 13.61,
     "totalStonePcs": 975,
-    "diamondSize": "RD",
+    "diamondSize": "+3.5-4",
     "price": {
-      "totalUsd": 3324.2
+      "totalUsd": 3358.85
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "1168",
+    "sourceTab": "MERGED STOCK",
+    "design": "LABUBU PENDANT",
+    "location": "HK",
+    "type": "PENDANT",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14K WHITE",
+    "inchSize": "US 7",
+    "grossWeight": 3.75,
+    "netWeight": 3.534,
+    "totalDiamondWeight": 1.08,
+    "totalStonePcs": 176,
+    "diamondSize": "+2.5-3",
+    "price": {
+      "totalUsd": 597.168
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "1390",
+    "sourceTab": "MERGED STOCK",
+    "design": "7PTS ROUND ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14K WHITE",
+    "inchSize": "US 7",
+    "grossWeight": 1.78,
+    "netWeight": 1.462,
+    "totalDiamondWeight": 1.59,
+    "totalStonePcs": 24,
+    "diamondSize": "+11-11.5",
+    "price": {
+      "totalUsd": 324.159
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "1405",
+    "sourceTab": "MERGED STOCK",
+    "design": "25PTS ROUND ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14K YELLOW",
+    "inchSize": "US 7",
+    "grossWeight": 3.77,
+    "netWeight": 2.962,
+    "totalDiamondWeight": 4.04,
+    "totalStonePcs": 17,
+    "diamondSize": "+19-19.5",
+    "price": {
+      "totalUsd": 835.384
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "1410",
+    "sourceTab": "MERGED STOCK",
+    "design": "25PTS ROUND ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14K WHITE",
+    "inchSize": "US 7",
+    "grossWeight": 3.74,
+    "netWeight": 2.932,
+    "totalDiamondWeight": 4.04,
+    "totalStonePcs": 17,
+    "diamondSize": "+19-19.5",
+    "price": {
+      "totalUsd": 831.424
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "1665",
+    "sourceTab": "MERGED STOCK",
+    "design": "5CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14K YELLOW",
+    "inchSize": "7 INCH",
+    "grossWeight": 6.25,
+    "netWeight": 5.24,
+    "totalDiamondWeight": 5.05,
+    "totalStonePcs": 61,
+    "diamondSize": "+11.5-12",
+    "price": {
+      "totalUsd": 1108.305
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "2321",
+    "sourceTab": "MERGED STOCK",
+    "design": "PEAR-ROUND ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US7",
+    "grossWeight": 3.35,
+    "netWeight": 2.898,
+    "totalDiamondWeight": 2.26,
+    "totalStonePcs": 48,
+    "diamondSize": "MIX",
+    "price": {
+      "totalUsd": 648.692
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "2324",
+    "sourceTab": "MERGED STOCK",
+    "design": "10PTS PEAR ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US7",
+    "grossWeight": 3.61,
+    "netWeight": 3.156,
+    "totalDiamondWeight": 2.27,
+    "totalStonePcs": 24,
+    "diamondSize": "3*2MM PE",
+    "price": {
+      "totalUsd": 741.202
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "2350",
+    "sourceTab": "MERGED STOCK",
+    "design": "65PTS EMERALD ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "US7",
+    "grossWeight": 6.26,
+    "netWeight": 4.24,
+    "totalDiamondWeight": 10.13,
+    "totalStonePcs": 16,
+    "diamondSize": "6*4MM EM",
+    "price": {
+      "totalUsd": 2008.27
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "2357",
+    "sourceTab": "MERGED STOCK",
+    "design": "10PTS ROUND ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US7",
+    "grossWeight": 9.41,
+    "netWeight": 8.08,
+    "totalDiamondWeight": 6.63,
+    "totalStonePcs": 66,
+    "diamondSize": "MIX",
+    "price": {
+      "totalUsd": 1633.016
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "2375",
+    "sourceTab": "MERGED STOCK",
+    "design": "75PTS PEAR ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "US7",
+    "grossWeight": 6.58,
+    "netWeight": 4.808,
+    "totalDiamondWeight": 8.86,
+    "totalStonePcs": 12,
+    "diamondSize": "7*5MM PE",
+    "price": {
+      "totalUsd": 1901.636
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "2442",
+    "sourceTab": "MERGED STOCK",
+    "design": "1CT EACH ROUND ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US7",
+    "grossWeight": 7.9,
+    "netWeight": 5.448,
+    "totalDiamondWeight": 12.26,
+    "totalStonePcs": 12,
+    "diamondSize": "1CT",
+    "price": {
+      "totalUsd": 2337.456
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "2450",
+    "sourceTab": "MERGED STOCK",
+    "design": "35PTS EMERALD ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "US7",
+    "grossWeight": 3.8,
+    "netWeight": 2.674,
+    "totalDiamondWeight": 5.63,
+    "totalStonePcs": 15,
+    "diamondSize": "MIX",
+    "price": {
+      "totalUsd": 1158.058
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "2452",
+    "sourceTab": "MERGED STOCK",
+    "design": "35PTS EMERALD ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US7",
+    "grossWeight": 3.96,
+    "netWeight": 2.88,
+    "totalDiamondWeight": 5.4,
+    "totalStonePcs": 15,
+    "diamondSize": "4.75*3.5 MM EM",
+    "price": {
+      "totalUsd": 1152.36
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "2460",
+    "sourceTab": "MERGED STOCK",
+    "design": "75PTS OVAL ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "US7",
+    "grossWeight": 6.4,
+    "netWeight": 4.302,
+    "totalDiamondWeight": 10.49,
+    "totalStonePcs": 14,
+    "diamondSize": "7*5MM OV",
+    "price": {
+      "totalUsd": 2067.934
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "2461",
+    "sourceTab": "MERGED STOCK",
+    "design": "1CT EACH PEAR ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "US7",
+    "grossWeight": 8.16,
+    "netWeight": 5.612,
+    "totalDiamondWeight": 12.74,
+    "totalStonePcs": 12,
+    "diamondSize": "1CTS",
+    "price": {
+      "totalUsd": 2562.604
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "2469",
+    "sourceTab": "MERGED STOCK",
+    "design": "10PTS PEAR ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "US7",
+    "grossWeight": 3.47,
+    "netWeight": 3.022,
+    "totalDiamondWeight": 2.24,
+    "totalStonePcs": 24,
+    "diamondSize": "3*2MM PE",
+    "price": {
+      "totalUsd": 719.224
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "2470",
+    "sourceTab": "MERGED STOCK",
+    "design": "20PTS PEAR ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "US7",
+    "grossWeight": 3.92,
+    "netWeight": 3.168,
+    "totalDiamondWeight": 3.76,
+    "totalStonePcs": 20,
+    "diamondSize": "4*3MM PE",
+    "price": {
+      "totalUsd": 955.856
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "726",
+    "sourceTab": "MERGED STOCK",
+    "design": "1CT EACH EMERALD STUDS",
+    "location": "HK",
+    "type": "STUD",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14K WHITE",
+    "grossWeight": 2.017,
+    "netWeight": 1.611,
+    "totalDiamondWeight": 2.03,
+    "totalStonePcs": 2,
+    "diamondSize": "7*5MM EM",
+    "price": {
+      "totalUsd": 502.942
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "727",
+    "sourceTab": "MERGED STOCK",
+    "design": "1CT EACH EMERALD STUDS",
+    "location": "HK",
+    "type": "STUD",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14K WHITE",
+    "grossWeight": 1.986,
+    "netWeight": 1.56,
+    "totalDiamondWeight": 2.13,
+    "totalStonePcs": 2,
+    "diamondSize": "7*5MM EM",
+    "price": {
+      "totalUsd": 510.51
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "734",
+    "sourceTab": "MERGED STOCK",
+    "design": "1.50CT EACH RADIANT STUDS",
+    "location": "HK",
+    "type": "STUD",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14K WHITE",
+    "grossWeight": 2.398,
+    "netWeight": 1.802,
+    "totalDiamondWeight": 2.98,
+    "totalStonePcs": 2,
+    "diamondSize": "7.5*5.5MM RAD",
+    "price": {
+      "totalUsd": 664.004
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "749",
+    "sourceTab": "MERGED STOCK",
+    "design": "1.25CT EACH RADIANT STUDS",
+    "location": "HK",
+    "type": "STUD",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14K WHITE",
+    "grossWeight": 2.158,
+    "netWeight": 1.67,
+    "totalDiamondWeight": 2.44,
+    "totalStonePcs": 2,
+    "diamondSize": "7.25*5.25MM RAD",
+    "price": {
+      "totalUsd": 569.36
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "750",
+    "sourceTab": "MERGED STOCK",
+    "design": "1CT EACH CUSHION STUDS",
+    "location": "HK",
+    "type": "STUD",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14K WHITE",
+    "grossWeight": 1.99,
+    "netWeight": 1.586,
+    "totalDiamondWeight": 2.02,
+    "totalStonePcs": 2,
+    "diamondSize": "6.5MM CUS",
+    "price": {
+      "totalUsd": 498.212
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "751",
+    "sourceTab": "MERGED STOCK",
+    "design": "2.50CT EACH ROUND STUDS",
+    "location": "HK",
+    "type": "STUD",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14K WHITE",
+    "grossWeight": 3.492,
+    "netWeight": 2.47,
+    "totalDiamondWeight": 5.11,
+    "totalStonePcs": 2,
+    "diamondSize": "2.46-2.98",
+    "price": {
+      "totalUsd": 1337.82
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "755",
+    "sourceTab": "MERGED STOCK",
+    "design": "1.25CT EACH EMERALD STUDS",
+    "location": "HK",
+    "type": "STUD",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14K WHITE",
+    "grossWeight": 2.241,
+    "netWeight": 1.731,
+    "totalDiamondWeight": 2.55,
+    "totalStonePcs": 2,
+    "diamondSize": "7.25*5.25MM EM",
+    "price": {
+      "totalUsd": 593.142
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "757",
+    "sourceTab": "MERGED STOCK",
+    "design": "1CT EACH EMERALD STUDS",
+    "location": "HK",
+    "type": "STUD",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14K WHITE",
+    "grossWeight": 2.029,
+    "netWeight": 1.617,
+    "totalDiamondWeight": 2.06,
+    "totalStonePcs": 2,
+    "diamondSize": "7*5MM EM",
+    "price": {
+      "totalUsd": 508.024
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "766",
+    "sourceTab": "MERGED STOCK",
+    "design": "1CT EACH RADIANT STUDS",
+    "location": "HK",
+    "type": "STUD",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14K WHITE",
+    "grossWeight": 2.124,
+    "netWeight": 1.698,
+    "totalDiamondWeight": 2.13,
+    "totalStonePcs": 2,
+    "diamondSize": "7*5MM RAD",
+    "price": {
+      "totalUsd": 528.726
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "826",
+    "sourceTab": "MERGED STOCK",
+    "design": "1.50CT EACH EMERALD BEZEL STUDS",
+    "location": "HK",
+    "type": "STUD",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14K WHITE",
+    "grossWeight": 3.385,
+    "netWeight": 2.811,
+    "totalDiamondWeight": 2.87,
+    "totalStonePcs": 2,
+    "diamondSize": "7.5*5.5MM EM",
+    "price": {
+      "totalUsd": 781.462
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "905",
+    "sourceTab": "MERGED STOCK",
+    "design": "CUBAN CHAIN",
+    "location": "HK",
+    "type": "CHAIN",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14K YELLOW",
+    "inchSize": "20 INCH",
+    "grossWeight": 184.85,
+    "netWeight": 163.701,
+    "totalDiamondWeight": 105.744,
+    "totalStonePcs": 1663,
+    "diamondSize": "MIX",
+    "price": {
+      "totalUsd": 30400.557
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "912",
+    "sourceTab": "MERGED STOCK",
+    "design": "4CT EMERALD-ROUND RING",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14K WHITE",
+    "inchSize": "US 7",
+    "grossWeight": 5.61,
+    "netWeight": 4.61,
+    "totalDiamondWeight": 4.99,
+    "totalStonePcs": 63,
+    "diamondSize": "MIX",
+    "price": {
+      "totalUsd": 1291.675
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0023",
+    "sourceTab": "MERGED STOCK",
+    "design": "10CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "7 INCH",
+    "grossWeight": 9.36,
+    "netWeight": 7.438,
+    "totalDiamondWeight": 9.65,
+    "totalStonePcs": 45,
+    "diamondSize": "+16.5-17",
+    "price": {
+      "totalUsd": 2043.316
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0139",
+    "sourceTab": "MERGED STOCK",
+    "design": "10PTS EMERALD ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US7",
+    "grossWeight": 3.02,
+    "netWeight": 2.426,
+    "totalDiamondWeight": 2.97,
+    "totalStonePcs": 30,
+    "diamondSize": "3*2MM EM",
+    "price": {
+      "totalUsd": 744.942
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0229",
+    "sourceTab": "MERGED STOCK",
+    "design": "15PTS OVAL ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14 KT YELLOW",
+    "inchSize": "US7",
+    "grossWeight": 3.77,
+    "netWeight": 3.262,
+    "totalDiamondWeight": 2.54,
+    "totalStonePcs": 22,
+    "diamondSize": "5.20*3.80MM OV",
+    "price": {
+      "totalUsd": 793.804
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0287",
+    "sourceTab": "MERGED STOCK",
+    "design": "70PTS ROUND ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14 KT WHITE",
+    "inchSize": "US 7",
+    "grossWeight": 5.55,
+    "netWeight": 3.846,
+    "totalDiamondWeight": 8.52,
+    "totalStonePcs": 12,
+    "diamondSize": "46085",
+    "price": {
+      "totalUsd": 1444.872
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0317",
+    "sourceTab": "MERGED STOCK",
+    "design": "50PTS EMERALD ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14 KT GOLD",
+    "inchSize": "US7",
+    "grossWeight": 6,
+    "netWeight": 4.3,
+    "totalDiamondWeight": 8.47,
+    "totalStonePcs": 16,
+    "diamondSize": "5.5*4MM EM",
+    "price": {
+      "totalUsd": 1778.81
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0320",
+    "sourceTab": "MERGED STOCK",
+    "design": "1CT EACH EMERALD ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14 KT GOLD",
+    "inchSize": "US7",
+    "grossWeight": 7.77,
+    "netWeight": 4.868,
+    "totalDiamondWeight": 14.51,
+    "totalStonePcs": 14,
+    "diamondSize": "7*5MM EM",
+    "price": {
+      "totalUsd": 2717.506
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0323",
+    "sourceTab": "MERGED STOCK",
+    "design": "1CT EACH OVAL ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14 KT GOLD",
+    "inchSize": "US7",
+    "grossWeight": 7.94,
+    "netWeight": 5.38,
+    "totalDiamondWeight": 12.8,
+    "totalStonePcs": 12,
+    "diamondSize": "7.5*5.5MM OV",
+    "price": {
+      "totalUsd": 2540.56
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0370",
+    "sourceTab": "MERGED STOCK",
+    "design": "15PTS OVAL ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14 KT WHITE",
+    "inchSize": "US7",
+    "grossWeight": 4.1,
+    "netWeight": 3.45,
+    "totalDiamondWeight": 3.22,
+    "totalStonePcs": 20,
+    "diamondSize": "3.7* 3.6MM OV",
+    "price": {
+      "totalUsd": 915.86
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0390",
+    "sourceTab": "MERGED STOCK",
+    "design": "30PTS PEAR ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14 KT YELLOW",
+    "inchSize": "US7",
+    "grossWeight": 4.55,
+    "netWeight": 3.536,
+    "totalDiamondWeight": 5.07,
+    "totalStonePcs": 16,
+    "diamondSize": "5*4MM PE",
+    "price": {
+      "totalUsd": 1191.762
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0443",
+    "sourceTab": "MERGED STOCK",
+    "design": "10CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 9.27,
+    "netWeight": 7.256,
+    "totalDiamondWeight": 10.07,
+    "totalStonePcs": 45,
+    "diamondSize": "+16-16.5",
+    "price": {
+      "totalUsd": 2065.492
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0446",
+    "sourceTab": "MERGED STOCK",
+    "design": "10CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 9.24,
+    "netWeight": 7.214,
+    "totalDiamondWeight": 10.13,
+    "totalStonePcs": 45,
+    "diamondSize": "+16-16.5",
+    "price": {
+      "totalUsd": 2066.548
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0466",
+    "sourceTab": "MERGED STOCK",
+    "design": "5CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "7 INCH",
+    "grossWeight": 6.13,
+    "netWeight": 5.144,
+    "totalDiamondWeight": 4.93,
+    "totalStonePcs": 61,
+    "diamondSize": "+11-11.5",
+    "price": {
+      "totalUsd": 1085.733
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0468",
+    "sourceTab": "MERGED STOCK",
+    "design": "10CT ALL MIX FANCY TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 9.33,
+    "netWeight": 7.214,
+    "totalDiamondWeight": 10.58,
+    "totalStonePcs": 36,
+    "diamondSize": "MIX",
+    "price": {
+      "totalUsd": 2465.188
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0470",
+    "sourceTab": "MERGED STOCK",
+    "design": "1CT EACH EMERALD BEZEL TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "7 INCH",
+    "grossWeight": 20.832,
+    "netWeight": 14.782,
+    "totalDiamondWeight": 30.25,
+    "totalStonePcs": 29,
+    "diamondSize": "7*5MM EM",
+    "price": {
+      "totalUsd": 6276.974
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0475",
+    "sourceTab": "MERGED STOCK",
+    "design": "1CT EACH EMERALD ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US7",
+    "grossWeight": 7.46,
+    "netWeight": 4.522,
+    "totalDiamondWeight": 14.69,
+    "totalStonePcs": 14,
+    "diamondSize": "7*5MM EM",
+    "price": {
+      "totalUsd": 2697.574
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0490",
+    "sourceTab": "MERGED STOCK",
+    "design": "1CT EACH EMERALD TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 20.735,
+    "netWeight": 13.539,
+    "totalDiamondWeight": 35.98,
+    "totalStonePcs": 33,
+    "diamondSize": "7*5MM EM",
+    "price": {
+      "totalUsd": 6932.288
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0499",
+    "sourceTab": "MERGED STOCK",
+    "design": "2CT EACH ROUND STUDS",
+    "location": "HK",
+    "type": "STUD",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "grossWeight": 1.73,
+    "netWeight": 0.904,
+    "totalDiamondWeight": 4.13,
+    "totalStonePcs": 2,
+    "diamondSize": "1.99-2.45",
+    "price": {
+      "totalUsd": 937.068
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0509",
+    "sourceTab": "MERGED STOCK",
+    "design": "1.25CT EACH ROUND STUDS",
+    "location": "HK",
+    "type": "STUD",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "grossWeight": 1.38,
+    "netWeight": 0.874,
+    "totalDiamondWeight": 2.53,
+    "totalStonePcs": 2,
+    "diamondSize": "1.10-1.45",
+    "price": {
+      "totalUsd": 449.328
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0512",
+    "sourceTab": "MERGED STOCK",
+    "design": "3CT EACH ROUND STUDS",
+    "location": "HK",
+    "type": "STUD",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "grossWeight": 2.23,
+    "netWeight": 1.03,
+    "totalDiamondWeight": 6,
+    "totalStonePcs": 2,
+    "diamondSize": "2.99",
+    "price": {
+      "totalUsd": 1455.96
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0531",
+    "sourceTab": "MERGED STOCK",
+    "design": "2CT EACH OVAL STUDS",
+    "location": "HK",
+    "type": "STUD",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "grossWeight": 2.06,
+    "netWeight": 1.26,
+    "totalDiamondWeight": 4,
+    "totalStonePcs": 2,
+    "diamondSize": "9*7MM OV",
+    "price": {
+      "totalUsd": 738.32
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0539",
+    "sourceTab": "MERGED STOCK",
+    "design": "1.50CT EACH OVAL STUDS",
+    "location": "HK",
+    "type": "STUD",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "grossWeight": 1.62,
+    "netWeight": 0.98,
+    "totalDiamondWeight": 3.2,
+    "totalStonePcs": 2,
+    "diamondSize": "9*7MM OV",
+    "price": {
+      "totalUsd": 586.96
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0547",
+    "sourceTab": "MERGED STOCK",
+    "design": "1CT EACH OVAL STUDS",
+    "location": "HK",
+    "type": "STUD",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "grossWeight": 1.41,
+    "netWeight": 1.008,
+    "totalDiamondWeight": 2.01,
+    "totalStonePcs": 2,
+    "diamondSize": "7.5*5.5MM OV",
+    "price": {
+      "totalUsd": 420.486
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0570",
+    "sourceTab": "MERGED STOCK",
+    "design": "7CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "7 INCH",
+    "grossWeight": 7.7,
+    "netWeight": 6.394,
+    "totalDiamondWeight": 6.53,
+    "totalStonePcs": 53,
+    "diamondSize": "+13-13.5",
+    "price": {
+      "totalUsd": 1404.282
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0583",
+    "sourceTab": "MERGED STOCK",
+    "design": "5CT ALL MIX FANCY TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 7.66,
+    "netWeight": 6.668,
+    "totalDiamondWeight": 4.66,
+    "totalStonePcs": 36,
+    "diamondSize": "MIX",
+    "price": {
+      "totalUsd": 1546.556
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0613",
+    "sourceTab": "MERGED STOCK",
+    "design": "30PTS EACH OVAL TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 12.453,
+    "netWeight": 9.59,
+    "totalDiamondWeight": 14.3,
+    "totalStonePcs": 44,
+    "diamondSize": "5.4MM OV",
+    "price": {
+      "totalUsd": 3310.78
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0614",
+    "sourceTab": "MERGED STOCK",
+    "design": "50PTS EACH OVAL TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "7 INCH",
+    "grossWeight": 14.566,
+    "netWeight": 10.604,
+    "totalDiamondWeight": 19.81,
+    "totalStonePcs": 37,
+    "diamondSize": "6.00*4.00MM OV",
+    "price": {
+      "totalUsd": 4232.558
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0617",
+    "sourceTab": "MERGED STOCK",
+    "design": "60PTS EACH OVAL BEZEL TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "7 INCH",
+    "grossWeight": 15.912,
+    "netWeight": 12.306,
+    "totalDiamondWeight": 18.03,
+    "totalStonePcs": 30,
+    "diamondSize": "6.5*5MM OV",
+    "price": {
+      "totalUsd": 4202.682
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0618",
+    "sourceTab": "MERGED STOCK",
+    "design": "65PTS EACH OVAL BEZEL TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 16.2,
+    "netWeight": 12.384,
+    "totalDiamondWeight": 19.08,
+    "totalStonePcs": 29,
+    "diamondSize": "6.5*4.5MM OV",
+    "price": {
+      "totalUsd": 4363.128
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0736",
+    "sourceTab": "MERGED STOCK",
+    "design": "5CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 6.32,
+    "netWeight": 5.318,
+    "totalDiamondWeight": 5.01,
+    "totalStonePcs": 61,
+    "diamondSize": "+11-11.5",
+    "price": {
+      "totalUsd": 1115.301
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0885",
+    "sourceTab": "MERGED STOCK",
+    "design": "10PTS EACH PEAR TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 7.934,
+    "netWeight": 6.754,
+    "totalDiamondWeight": 5.9,
+    "totalStonePcs": 61,
+    "diamondSize": "3*2MM PE",
+    "price": {
+      "totalUsd": 1735.228
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0976",
+    "sourceTab": "MERGED STOCK",
+    "design": "3CT ALL MIX FANCY TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 5.308,
+    "netWeight": 4.718,
+    "totalDiamondWeight": 2.95,
+    "totalStonePcs": 36,
+    "diamondSize": "MIX",
+    "price": {
+      "totalUsd": 1044.626
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A1041",
+    "sourceTab": "MERGED STOCK",
+    "design": "10PTS EACH PEAR TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 7.959,
+    "netWeight": 6.775,
+    "totalDiamondWeight": 5.92,
+    "totalStonePcs": 61,
+    "diamondSize": "3*2MM PE",
+    "price": {
+      "totalUsd": 1740.86
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A1049",
+    "sourceTab": "MERGED STOCK",
+    "design": "10CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "7 INCH",
+    "grossWeight": 9.78,
+    "netWeight": 7.732,
+    "totalDiamondWeight": 10.24,
+    "totalStonePcs": 48,
+    "diamondSize": "+17.5-18",
+    "price": {
+      "totalUsd": 2147.024
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A1050",
+    "sourceTab": "MERGED STOCK",
+    "design": "10CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "7.40 INCH",
+    "grossWeight": 9.76,
+    "netWeight": 7.696,
+    "totalDiamondWeight": 10.32,
+    "totalStonePcs": 48,
+    "diamondSize": "+17.5-18",
+    "price": {
+      "totalUsd": 2151.072
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A1123",
+    "sourceTab": "MERGED STOCK",
+    "design": "15CT ALL MIX FANCY TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 12.073,
+    "netWeight": 8.917,
+    "totalDiamondWeight": 15.78,
+    "totalStonePcs": 34,
+    "diamondSize": "MIX",
+    "price": {
+      "totalUsd": 3355.407
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A1134",
+    "sourceTab": "MERGED STOCK",
+    "design": "10CT ROUND GRADUATED NECKLACE",
+    "location": "HK",
+    "type": "NECKLACE",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "16.5 INCH",
+    "grossWeight": 17.038,
+    "netWeight": 14.886,
+    "totalDiamondWeight": 10.72,
+    "totalStonePcs": 175,
+    "diamondSize": "MIX",
+    "price": {
+      "totalUsd": 3012.779
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A1219",
+    "sourceTab": "MERGED STOCK",
+    "design": "10CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 8.36,
+    "netWeight": 6.4,
+    "totalDiamondWeight": 9.8,
+    "totalStonePcs": 48,
+    "diamondSize": "+15.5-16",
+    "price": {
+      "totalUsd": 1922.8
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A1230",
+    "sourceTab": "MERGED STOCK",
+    "design": "20CT ROUND STRAIGHT LINE TENNIS NECKLACE",
+    "location": "HK",
+    "type": "NECKLACE",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "16.5 INCH",
+    "grossWeight": 16.371,
+    "netWeight": 12.291,
+    "totalDiamondWeight": 20.4,
+    "totalStonePcs": 102,
+    "diamondSize": "+15.5-16",
+    "price": {
+      "totalUsd": 3866.412
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0093C",
+    "sourceTab": "MERGED STOCK",
+    "design": "15CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "7 INCH",
+    "grossWeight": 12.22,
+    "netWeight": 9.206,
+    "totalDiamondWeight": 15.07,
+    "totalStonePcs": 35,
+    "diamondSize": "44 PTS",
+    "price": {
+      "totalUsd": 2872.892
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0118",
+    "sourceTab": "MERGED STOCK",
+    "design": "4CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 5.07,
+    "netWeight": 4.25,
+    "totalDiamondWeight": 4.1,
+    "totalStonePcs": 70,
+    "diamondSize": "+9.5-10",
+    "price": {
+      "totalUsd": 899.25
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0120",
+    "sourceTab": "MERGED STOCK",
+    "design": "4CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 4.95,
+    "netWeight": 4.138,
+    "totalDiamondWeight": 4.06,
+    "totalStonePcs": 70,
+    "diamondSize": "+9.5-10",
+    "price": {
+      "totalUsd": 881.1659999999999
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0121",
+    "sourceTab": "MERGED STOCK",
+    "design": "4CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 4.93,
+    "netWeight": 4.114,
+    "totalDiamondWeight": 4.08,
+    "totalStonePcs": 70,
+    "diamondSize": "+9.5-10",
+    "price": {
+      "totalUsd": 879.6479999999999
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0201",
+    "sourceTab": "MERGED STOCK",
+    "design": "7CT ROUND STRAIGHT LINE TENNIS NECKLACE",
+    "location": "HK",
+    "type": "NECKLACE",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "16.5 INCH",
+    "grossWeight": 11.021,
+    "netWeight": 9.615,
+    "totalDiamondWeight": 7.03,
+    "totalStonePcs": 175,
+    "diamondSize": "+8.25-8.5",
+    "price": {
+      "totalUsd": 1903.286
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0212",
+    "sourceTab": "MERGED STOCK",
+    "design": "15CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 10.713,
+    "netWeight": 7.573,
+    "totalDiamondWeight": 15.7,
+    "totalStonePcs": 39,
+    "diamondSize": "4.6 MM",
+    "price": {
+      "totalUsd": 2415.776
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0223C",
+    "sourceTab": "MERGED STOCK",
+    "design": "3CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 4.55,
+    "netWeight": 3.986,
+    "totalDiamondWeight": 2.82,
+    "totalStonePcs": 80,
+    "diamondSize": "+7.5-8",
+    "price": {
+      "totalUsd": 820.842
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0249",
+    "sourceTab": "MERGED STOCK",
+    "design": "7CT ROUND STRAIGHT LINE TENNIS NECKLACE",
+    "location": "HK",
+    "type": "NECKLACE",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "16.5 INCH",
+    "grossWeight": 10.744,
+    "netWeight": 9.198,
+    "totalDiamondWeight": 7.73,
+    "totalStonePcs": 175,
+    "diamondSize": "+8.5-8.75",
+    "price": {
+      "totalUsd": 1911.382
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0315",
+    "sourceTab": "MERGED STOCK",
+    "design": "3CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "7 INCH",
+    "grossWeight": 4.62,
+    "netWeight": 3.992,
+    "totalDiamondWeight": 3.14,
+    "totalStonePcs": 80,
+    "diamondSize": "+8-8.5",
+    "price": {
+      "totalUsd": 810.172
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0322C",
+    "sourceTab": "MERGED STOCK",
+    "design": "5CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 5.01,
+    "netWeight": 3.976,
+    "totalDiamondWeight": 5.17,
+    "totalStonePcs": 62,
+    "diamondSize": "+11-11.5",
+    "price": {
+      "totalUsd": 951.357
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0325C",
+    "sourceTab": "MERGED STOCK",
+    "design": "5CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 4.92,
+    "netWeight": 3.898,
+    "totalDiamondWeight": 5.11,
+    "totalStonePcs": 62,
+    "diamondSize": "+11-11.5",
+    "price": {
+      "totalUsd": 936.111
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0326C",
+    "sourceTab": "MERGED STOCK",
+    "design": "5CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 5,
+    "netWeight": 3.968,
+    "totalDiamondWeight": 5.16,
+    "totalStonePcs": 62,
+    "diamondSize": "+11-11.5",
+    "price": {
+      "totalUsd": 949.476
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0329",
+    "sourceTab": "MERGED STOCK",
+    "design": "5CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 5,
+    "netWeight": 3.972,
+    "totalDiamondWeight": 5.14,
+    "totalStonePcs": 62,
+    "diamondSize": "+11-11.5",
+    "price": {
+      "totalUsd": 948.354
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0336C",
+    "sourceTab": "MERGED STOCK",
+    "design": "7CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 6.98,
+    "netWeight": 5.568,
+    "totalDiamondWeight": 7.06,
+    "totalStonePcs": 53,
+    "diamondSize": "+13.5-14",
+    "price": {
+      "totalUsd": 1340.724
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0375",
+    "sourceTab": "MERGED STOCK",
+    "design": "7CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 7.04,
+    "netWeight": 5.602,
+    "totalDiamondWeight": 7.19,
+    "totalStonePcs": 51,
+    "diamondSize": "+13.75-14",
+    "price": {
+      "totalUsd": 1356.366
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0391",
+    "sourceTab": "MERGED STOCK",
+    "design": "7CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 7.156,
+    "netWeight": 5.732,
+    "totalDiamondWeight": 7.12,
+    "totalStonePcs": 51,
+    "diamondSize": "+13.75-14",
+    "price": {
+      "totalUsd": 1367.52
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0420",
+    "sourceTab": "MERGED STOCK",
+    "design": "7CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 7.415,
+    "netWeight": 6.017,
+    "totalDiamondWeight": 6.99,
+    "totalStonePcs": 51,
+    "diamondSize": "+13.5-13.75",
+    "price": {
+      "totalUsd": 1393.986
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0622",
+    "sourceTab": "MERGED STOCK",
+    "design": "7CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "7 INCH",
+    "grossWeight": 6.97,
+    "netWeight": 5.6,
+    "totalDiamondWeight": 6.85,
+    "totalStonePcs": 51,
+    "diamondSize": "+13.5-13.75",
+    "price": {
+      "totalUsd": 1326.93
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0704C",
+    "sourceTab": "MERGED STOCK",
+    "design": "COLOUR DIAMOND ALL MIX FANCY TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 11.975,
+    "netWeight": 9.187,
+    "totalDiamondWeight": 13.94,
+    "totalStonePcs": 217,
+    "diamondSize": "MIX",
+    "price": {
+      "totalUsd": 4483.534
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1111",
+    "sourceTab": "MERGED STOCK",
+    "design": "2CTS ROUND ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "US7",
+    "grossWeight": 1.712,
+    "netWeight": 1.29,
+    "totalDiamondWeight": 2.11,
+    "totalStonePcs": 21,
+    "diamondSize": "+12-12.5",
+    "price": {
+      "totalUsd": 360.602
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1113",
+    "sourceTab": "MERGED STOCK",
+    "design": "2CTS ROUND ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US7",
+    "grossWeight": 1.718,
+    "netWeight": 1.39,
+    "totalDiamondWeight": 2.08,
+    "totalStonePcs": 21,
+    "diamondSize": "+12-12.5",
+    "price": {
+      "totalUsd": 371.096
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1117",
+    "sourceTab": "MERGED STOCK",
+    "design": "4CTS ROUND ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "US7",
+    "grossWeight": 2.525,
+    "netWeight": 1.767,
+    "totalDiamondWeight": 3.79,
+    "totalStonePcs": 17,
+    "diamondSize": "24 POINTER",
+    "price": {
+      "totalUsd": 650.144
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1153",
+    "sourceTab": "MERGED STOCK",
+    "design": "5CTS ROUND ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US7",
+    "grossWeight": 3.495,
+    "netWeight": 2.457,
+    "totalDiamondWeight": 5.19,
+    "totalStonePcs": 16,
+    "diamondSize": "+19-19.5",
+    "price": {
+      "totalUsd": 895.224
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1154",
+    "sourceTab": "MERGED STOCK",
+    "design": "2CTS ROUND ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "US7",
+    "grossWeight": 1.79,
+    "netWeight": 1.368,
+    "totalDiamondWeight": 2.11,
+    "totalStonePcs": 21,
+    "diamondSize": "+12-12.5",
+    "price": {
+      "totalUsd": 370.898
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1160",
+    "sourceTab": "MERGED STOCK",
+    "design": "4CTS ROUND ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "US7",
+    "grossWeight": 2.695,
+    "netWeight": 1.947,
+    "totalDiamondWeight": 3.74,
+    "totalStonePcs": 17,
+    "diamondSize": "24 POINTER",
+    "price": {
+      "totalUsd": 668.404
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1161",
+    "sourceTab": "MERGED STOCK",
+    "design": "5CTS ROUND ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "US7",
+    "grossWeight": 3.638,
+    "netWeight": 2.592,
+    "totalDiamondWeight": 5.23,
+    "totalStonePcs": 16,
+    "diamondSize": "+19-19.5",
+    "price": {
+      "totalUsd": 917.444
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1167",
+    "sourceTab": "MERGED STOCK",
+    "design": "5CTS ROUND ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US7",
+    "grossWeight": 3.275,
+    "netWeight": 2.433,
+    "totalDiamondWeight": 5.21,
+    "totalStonePcs": 16,
+    "diamondSize": "+19-19.5",
+    "price": {
+      "totalUsd": 894.2560000000001
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1168",
+    "sourceTab": "MERGED STOCK",
+    "design": "2CTS ROUND ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US7",
+    "grossWeight": 1.75,
+    "netWeight": 1.318,
+    "totalDiamondWeight": 2.16,
+    "totalStonePcs": 21,
+    "diamondSize": "+12-12.5",
+    "price": {
+      "totalUsd": 368.808
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1171",
+    "sourceTab": "MERGED STOCK",
+    "design": "5CTS ROUND ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "US7",
+    "grossWeight": 3.534,
+    "netWeight": 2.486,
+    "totalDiamondWeight": 5.24,
+    "totalStonePcs": 16,
+    "diamondSize": "+19-19.5",
+    "price": {
+      "totalUsd": 904.552
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1221",
+    "sourceTab": "MERGED STOCK",
+    "design": "5CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "7 INCH",
+    "grossWeight": 6.365,
+    "netWeight": 5.353,
+    "totalDiamondWeight": 5.06,
+    "totalStonePcs": 62,
+    "diamondSize": "+11-11.5",
+    "price": {
+      "totalUsd": 1124.046
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1237C",
+    "sourceTab": "MERGED STOCK",
+    "design": "7CT ROUND STRAIGHT LINE TENNIS NECKLACE",
+    "location": "HK",
+    "type": "NECKLACE",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "16.5 INCH",
+    "grossWeight": 11.18,
+    "netWeight": 9.746,
+    "totalDiamondWeight": 7.17,
+    "totalStonePcs": 182,
+    "diamondSize": "+8-8.5",
+    "price": {
+      "totalUsd": 1933.206
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1240C",
+    "sourceTab": "MERGED STOCK",
+    "design": "7CT ROUND STRAIGHT LINE TENNIS NECKLACE",
+    "location": "HK",
+    "type": "NECKLACE",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "16.5 INCH",
+    "grossWeight": 10.92,
+    "netWeight": 9.472,
+    "totalDiamondWeight": 7.24,
+    "totalStonePcs": 182,
+    "diamondSize": "+8-8.5",
+    "price": {
+      "totalUsd": 1903.352
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1458C",
+    "sourceTab": "MERGED STOCK",
+    "design": "8PTS ROUND ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US7",
+    "grossWeight": 1.82,
+    "netWeight": 1.428,
+    "totalDiamondWeight": 1.96,
+    "totalStonePcs": 24,
+    "diamondSize": "+11-11.5",
+    "price": {
+      "totalUsd": 350.196
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1459C",
+    "sourceTab": "MERGED STOCK",
+    "design": "8PTS ROUND ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US6.5",
+    "grossWeight": 2.01,
+    "netWeight": 1.63,
+    "totalDiamondWeight": 1.9,
+    "totalStonePcs": 23,
+    "diamondSize": "+11-11.5",
+    "price": {
+      "totalUsd": 371.91
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1460C",
+    "sourceTab": "MERGED STOCK",
+    "design": "8PTS ROUND ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US6",
+    "grossWeight": 2.035,
+    "netWeight": 1.656,
+    "totalDiamondWeight": 1.89,
+    "totalStonePcs": 23,
+    "diamondSize": "+11-11.5",
+    "price": {
+      "totalUsd": 374.5170000000001
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1461C",
+    "sourceTab": "MERGED STOCK",
+    "design": "8PTS ROUND ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US7.5",
+    "grossWeight": 1.86,
+    "netWeight": 1.462,
+    "totalDiamondWeight": 1.99,
+    "totalStonePcs": 24,
+    "diamondSize": "+11-11.5",
+    "price": {
+      "totalUsd": 357.159
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1527C",
+    "sourceTab": "MERGED STOCK",
+    "design": "8PTS ROUND ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "sourceFile": "HK Stock",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US8",
+    "grossWeight": 1.92,
+    "netWeight": 1.498,
+    "totalDiamondWeight": 2.11,
+    "totalStonePcs": 26,
+    "diamondSize": "+11-11.5",
+    "price": {
+      "totalUsd": 371.811
     },
     "lineItems": []
   },
   {
     "srNo": "1459",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "3 CT TENNIS BRACELET",
     "location": "USA",
     "type": "BRACELET",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14K WHITE",
     "inchSize": "7 INCH",
     "grossWeight": 5.06,
@@ -73,10 +1999,11 @@
   },
   {
     "srNo": "1642",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "OVAL TENNIS BRACELET",
     "location": "USA",
     "type": "BRACELET",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14K WHITE",
     "inchSize": "7 INCH",
     "grossWeight": 17.727,
@@ -91,10 +2018,11 @@
   },
   {
     "srNo": "1645",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "1 CT ROUND TENNIS BRACELET",
     "location": "USA",
     "type": "BRACELET",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14K WHITE",
     "inchSize": "7 INCH",
     "grossWeight": 21.9,
@@ -109,10 +2037,11 @@
   },
   {
     "srNo": "2348",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "15 CT EMERALD ETERNITY BAND",
     "location": "USA",
     "type": "RING",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14K WHITE",
     "inchSize": "US7",
     "grossWeight": 6.82,
@@ -127,10 +2056,11 @@
   },
   {
     "srNo": "2395",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "10 CT TENNIS BRACELET",
     "location": "USA",
     "type": "BRACELET",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14K YELLOW",
     "inchSize": "7 INCH",
     "grossWeight": 9.062,
@@ -145,10 +2075,11 @@
   },
   {
     "srNo": "2474",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "RADIANT SOLITAIRE BAND",
     "location": "USA",
     "type": "RING",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14KT WHITE",
     "inchSize": "US7",
     "grossWeight": 2.55,
@@ -163,10 +2094,11 @@
   },
   {
     "srNo": "2496",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "10 CT TENNIS BRACELET",
     "location": "USA",
     "type": "BRACELET",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14K YELLOW",
     "inchSize": "7.5 INCH",
     "grossWeight": 9.36,
@@ -180,11 +2112,69 @@
     "lineItems": []
   },
   {
+    "srNo": "773",
+    "sourceTab": "MERGED STOCK",
+    "design": "HALO RADIANT RING",
+    "location": "USA",
+    "type": "RING",
+    "sourceFile": "Seyaa HK",
+    "goldDetails": "14K WHITE",
+    "inchSize": "US 7",
+    "grossWeight": 3.84,
+    "netWeight": 3.452,
+    "totalDiamondWeight": 1.94,
+    "totalStonePcs": 29,
+    "diamondSize": "MIX",
+    "price": {
+      "totalUsd": 739.2
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "916",
+    "sourceTab": "MERGED STOCK",
+    "design": "OVAL PEAR RING",
+    "location": "USA",
+    "type": "RING",
+    "sourceFile": "Seyaa HK",
+    "goldDetails": "14K WHITE",
+    "inchSize": "US 7",
+    "grossWeight": 1.92,
+    "netWeight": 1.65,
+    "totalDiamondWeight": 1.36,
+    "totalStonePcs": 3,
+    "diamondSize": "MIX",
+    "price": {
+      "totalUsd": 412.5
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "996",
+    "sourceTab": "MERGED STOCK",
+    "design": "TUBE ROUND BRACELET",
+    "location": "USA",
+    "type": "BRACELET",
+    "sourceFile": "Seyaa HK",
+    "goldDetails": "14K WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 16.3,
+    "netWeight": 13.82,
+    "totalDiamondWeight": 12.4,
+    "totalStonePcs": 975,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 3324.2
+    },
+    "lineItems": []
+  },
+  {
     "srNo": "A0025",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "10 CT TENNIS BRACELET",
     "location": "USA",
     "type": "BRACELET",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14K YELLOW",
     "inchSize": "7 INCH",
     "grossWeight": 9.48,
@@ -199,10 +2189,11 @@
   },
   {
     "srNo": "A0600",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "EMERALD / PRINCESS FANCY SOLITAIRE RING",
     "location": "USA",
     "type": "RING",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14KT WHITE",
     "inchSize": "US7",
     "grossWeight": 3.94,
@@ -217,10 +2208,11 @@
   },
   {
     "srNo": "A0725",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "10 CT TENNIS BRACELET",
     "location": "USA",
     "type": "BRACELET",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14K WHITE",
     "inchSize": "7 INCH",
     "grossWeight": 8.93,
@@ -235,10 +2227,11 @@
   },
   {
     "srNo": "A0761",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "1cts ALL ROUND DIAMOND RING",
     "location": "USA",
     "type": "RING",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14KT WHITE",
     "inchSize": "US7",
     "grossWeight": 5.64,
@@ -253,10 +2246,11 @@
   },
   {
     "srNo": "A0884",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "7 CT PEAR TENNIS BRACELET",
     "location": "USA",
     "type": "BRACELET",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14K WHITE",
     "inchSize": "7 INCH",
     "grossWeight": 9.559,
@@ -271,12 +2265,12 @@
   },
   {
     "srNo": "A0951",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "PEAR DANGLING EARRING",
     "location": "USA",
     "type": "EARRING",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14KT WHITE",
-    "inchSize": "NA",
     "grossWeight": 2.077,
     "netWeight": 1.763,
     "totalDiamondWeight": 1.57,
@@ -289,10 +2283,11 @@
   },
   {
     "srNo": "A1064",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "HIPOP MOUSE PENDANT",
     "location": "USA",
     "type": "PENDANT",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14K YELLOW",
     "inchSize": "US",
     "grossWeight": 11.27,
@@ -307,12 +2302,12 @@
   },
   {
     "srNo": "A1068",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "HIPOP MICHAEL JACKSON PRNDANT",
     "location": "USA",
     "type": "PENDANT",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14K WHITE",
-    "inchSize": "NA",
     "grossWeight": 11.73,
     "netWeight": 10.884,
     "totalDiamondWeight": 4.23,
@@ -324,10 +2319,11 @@
   },
   {
     "srNo": "A1144",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "HIPOP MONEY HEIST PENDANT",
     "location": "USA",
     "type": "PENDANT",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14K WHITE",
     "inchSize": "US",
     "grossWeight": 11.58,
@@ -342,10 +2338,11 @@
   },
   {
     "srNo": "A1400",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "20 CT STRAIGHT LINE TENNIS NECKLACE",
     "location": "USA",
     "type": "NECKLACE",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14K YELLOW",
     "inchSize": "16.5 INCH",
     "grossWeight": 16.608,
@@ -360,10 +2357,11 @@
   },
   {
     "srNo": "A1671",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "2 CT PEAR ETERNITY BAND",
     "location": "USA",
     "type": "RING",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14K WHITE",
     "inchSize": "US 7",
     "grossWeight": 2.24,
@@ -378,10 +2376,11 @@
   },
   {
     "srNo": "A1830",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "3 CT OVAL ETERNITY BAND",
     "location": "USA",
     "type": "RING",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14K WHITE",
     "inchSize": "US7",
     "grossWeight": 2.76,
@@ -396,10 +2395,11 @@
   },
   {
     "srNo": "A2112",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "1CT EACH FANCY MIX DANGLING EARRINGS",
     "location": "USA",
     "type": "STUD",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14K WHITE",
     "inchSize": "US",
     "grossWeight": 5.65,
@@ -414,12 +2414,12 @@
   },
   {
     "srNo": "A2120",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "ROUND GRADUATED DANGLING EARRINGS",
     "location": "USA",
     "type": "STUD",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14K WHITE",
-    "inchSize": "NA",
     "grossWeight": 4.65,
     "netWeight": 3.45,
     "totalDiamondWeight": 6,
@@ -432,12 +2432,12 @@
   },
   {
     "srNo": "A2160",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "PEAR GRADUATED DANGLING EARRINGS",
     "location": "USA",
     "type": "EARRING",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14K WHITE",
-    "inchSize": "NA",
     "grossWeight": 3.67,
     "netWeight": 2.66,
     "totalDiamondWeight": 5.05,
@@ -450,10 +2450,11 @@
   },
   {
     "srNo": "CA0429",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "Pink Round Eternity Band",
     "location": "USA",
     "type": "RING",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14KT WHITE",
     "inchSize": "US7",
     "grossWeight": 4.72,
@@ -468,10 +2469,11 @@
   },
   {
     "srNo": "S0004C",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "17 CT OVAL BEZEL TENNIS BRACELET",
     "location": "USA",
     "type": "BRACELET",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14K WHITE",
     "inchSize": "7 INCH",
     "grossWeight": 16.265,
@@ -486,10 +2488,11 @@
   },
   {
     "srNo": "S0213C",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "10PTS EACH ROUND ETERNITY BAND",
     "location": "USA",
     "type": "RING",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14KT WHITE",
     "inchSize": "US7",
     "grossWeight": 2.946,
@@ -504,10 +2507,11 @@
   },
   {
     "srNo": "S0250C",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "M LETTER PENDANT CHAIN",
     "location": "USA",
     "type": "PENDANT",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14K YELLOW",
     "inchSize": "US",
     "grossWeight": 8.165,
@@ -522,10 +2526,11 @@
   },
   {
     "srNo": "S0259C",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "MIX COLOUR FANCY DIAMOND NECKLACE",
     "location": "USA",
     "type": "NECKLACE",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14K WHITE",
     "inchSize": "18 INCH",
     "grossWeight": 33.759,
@@ -540,10 +2545,11 @@
   },
   {
     "srNo": "S0314",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "3CT ROUND TENNIS BRACELET",
     "location": "USA",
     "type": "BRACELET",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14KT YELLOW",
     "inchSize": "7 INCH",
     "grossWeight": 4.58,
@@ -558,10 +2564,11 @@
   },
   {
     "srNo": "S0373",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "KNOT NECKLACE",
     "location": "USA",
     "type": "NECKLACE",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "18K ROSE",
     "inchSize": "22 INCH",
     "grossWeight": 14.59,
@@ -576,10 +2583,11 @@
   },
   {
     "srNo": "S0439",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "5CT ROUND STRAIGHT LINE TENNIS NECKLACE",
     "location": "USA",
     "type": "NECKLACE",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14K WHITE",
     "inchSize": "16.5 INCH",
     "grossWeight": 9.78,
@@ -594,10 +2602,11 @@
   },
   {
     "srNo": "S0613",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "7 CT TENNIS BRACELET",
     "location": "USA",
     "type": "BRACELET",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14K YELLOW",
     "inchSize": "7 INCH",
     "grossWeight": 7,
@@ -612,10 +2621,11 @@
   },
   {
     "srNo": "S0664C",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "2CT+ YELLOW CUSHION HALO RING",
     "location": "USA",
     "type": "RING",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14KT WHITE",
     "inchSize": "US7",
     "grossWeight": 4,
@@ -630,10 +2640,11 @@
   },
   {
     "srNo": "S0742",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "5CT ROUND STRAIGHT LINE TENNIS NECKLACE",
     "location": "USA",
     "type": "NECKLACE",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14K WHITE",
     "inchSize": "16.5 INCH",
     "grossWeight": 9.95,
@@ -648,10 +2659,11 @@
   },
   {
     "srNo": "S0797",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "7 CT STRAIGHT LINE TENNIS NECKLACE",
     "location": "USA",
     "type": "NECKLACE",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14K WHITE",
     "inchSize": "16.5 INCH",
     "grossWeight": 11.08,
@@ -665,11 +2677,31 @@
     "lineItems": []
   },
   {
+    "srNo": "S0822",
+    "sourceTab": "MERGED STOCK",
+    "design": "10 CT SINGLE LINE TENNIS NECKLACE",
+    "location": "USA",
+    "type": "NECKLACE",
+    "sourceFile": "Seyaa HK",
+    "goldDetails": "14K WHITE",
+    "inchSize": "16.5 INCH",
+    "grossWeight": 14.07,
+    "netWeight": 11.798,
+    "totalDiamondWeight": 11.36,
+    "totalStonePcs": 156,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 2423.3
+    },
+    "lineItems": []
+  },
+  {
     "srNo": "S0840",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "7 CT STRAIGHT LINE TENNIS NECKLACE",
     "location": "USA",
     "type": "NECKLACE",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14K WHITE",
     "inchSize": "16.5 INCH",
     "grossWeight": 11.2,
@@ -684,10 +2716,11 @@
   },
   {
     "srNo": "S0843",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "7 CT STRAIGHT LINE TENNIS NECKLACE",
     "location": "USA",
     "type": "NECKLACE",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14K WHITE",
     "inchSize": "16.5 INCH",
     "grossWeight": 11.1,
@@ -702,10 +2735,11 @@
   },
   {
     "srNo": "S1022",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "7 CT STRAIGHT LINE TENNIS NECKLACE",
     "location": "USA",
     "type": "NECKLACE",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14K YELLOW",
     "inchSize": "16.5 INCH",
     "grossWeight": 9.87,
@@ -720,10 +2754,11 @@
   },
   {
     "srNo": "S1047",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "5CT ROUND STRAIGHT LINE TENNIS NECKLACE",
     "location": "USA",
     "type": "NECKLACE",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14K WHITE",
     "inchSize": "16.5 INCH",
     "grossWeight": 10.36,
@@ -738,10 +2773,11 @@
   },
   {
     "srNo": "S1051",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "10 CT SINGLE LINE TENNIS NECKLACE",
     "location": "USA",
     "type": "NECKLACE",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14K YELLOW",
     "inchSize": "16.5 INCH",
     "grossWeight": 13.93,
@@ -756,12 +2792,12 @@
   },
   {
     "srNo": "S1146C",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "TOI EI MOI STUDDS PEAR & EMERALD",
     "location": "USA",
     "type": "STUD",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14KT YELLOW",
-    "inchSize": "NA",
     "grossWeight": 1.81,
     "netWeight": 1.282,
     "totalDiamondWeight": 2.64,
@@ -774,10 +2810,11 @@
   },
   {
     "srNo": "S1170C",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "4CT PINK CUSHION SOLITAIRE RING",
     "location": "USA",
     "type": "RING",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14KT WHITE",
     "inchSize": "US7",
     "grossWeight": 4.046,
@@ -792,10 +2829,11 @@
   },
   {
     "srNo": "S1209C",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "5CT+ YELLOW RECTANGULAR SOLITAIRE HALO RING",
     "location": "USA",
     "type": "RING",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14KT WHITE",
     "inchSize": "US7",
     "grossWeight": 5.175,
@@ -810,10 +2848,11 @@
   },
   {
     "srNo": "S1233C",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "3CT+ BLUE OVAL SOLITAIRE RING",
     "location": "USA",
     "type": "RING",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14KT WHITE",
     "inchSize": "US7",
     "grossWeight": 4.238,
@@ -828,10 +2867,11 @@
   },
   {
     "srNo": "S1241C",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "1CT+ BLUE RECTANGULAR SOLITAIRE RING",
     "location": "USA",
     "type": "RING",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14KT WHITE",
     "inchSize": "US7",
     "grossWeight": 2.3,
@@ -846,10 +2886,11 @@
   },
   {
     "srNo": "S1249C",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "3CT+ PINK DIAMOND SOLITAIRE RING",
     "location": "USA",
     "type": "RING",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14KT WHITE",
     "inchSize": "US7",
     "grossWeight": 4.635,
@@ -863,11 +2904,69 @@
     "lineItems": []
   },
   {
+    "srNo": "S1358C",
+    "sourceTab": "MERGED STOCK",
+    "design": "50PTS MARQUISE EACH ETERNITY BAND",
+    "location": "USA",
+    "type": "EARRING",
+    "sourceFile": "Seyaa HK",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US7",
+    "grossWeight": 5.728,
+    "netWeight": 4.064,
+    "totalDiamondWeight": 8.32,
+    "totalStonePcs": 15,
+    "diamondSize": "MQ",
+    "price": {
+      "totalUsd": 1725.9
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1377",
+    "sourceTab": "MERGED STOCK",
+    "design": "7CT ROUND TENNIS BRACELET",
+    "location": "USA",
+    "type": "BRACELET",
+    "sourceFile": "Seyaa HK",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 7.599,
+    "netWeight": 6.185,
+    "totalDiamondWeight": 7.07,
+    "totalStonePcs": 51,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 1423.4
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1392C",
+    "sourceTab": "MERGED STOCK",
+    "design": "COLOUR DIAMOND ALL MIX FANCY TENNIS BRACELET",
+    "location": "USA",
+    "type": "BRACELET",
+    "sourceFile": "Seyaa HK",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US7",
+    "grossWeight": 12.665,
+    "netWeight": 10.209,
+    "totalDiamondWeight": 12.28,
+    "totalStonePcs": 196,
+    "diamondSize": "ROUND",
+    "price": {
+      "totalUsd": 3787.3
+    },
+    "lineItems": []
+  },
+  {
     "srNo": "S1397",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "15 CT STRAIGHT LINE TENNIS NECKLACE",
     "location": "USA",
     "type": "NECKLACE",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14K WHITE",
     "inchSize": "16.5 INCH",
     "grossWeight": 16.32,
@@ -882,10 +2981,11 @@
   },
   {
     "srNo": "S1438C",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "15 CT STRAIGHT LINE TENNIS NECKLACE",
     "location": "USA",
     "type": "NECKLACE",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14K YELLOW",
     "inchSize": "16.5 INCH",
     "grossWeight": 15.6,
@@ -900,12 +3000,12 @@
   },
   {
     "srNo": "S1499C",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "PEAR & MARQUISE BUTTERFLY PENDANT",
     "location": "USA",
     "type": "PENDANT",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14KT YELLOW",
-    "inchSize": "NA",
     "grossWeight": 3.09,
     "netWeight": 2.59,
     "totalDiamondWeight": 2.5,
@@ -917,65 +3017,12 @@
     "lineItems": []
   },
   {
-    "srNo": "S1392C",
-    "sourceTab": "Sheet1",
-    "design": "COLOUR DIAMOND ALL MIX FANCY TENNIS BRACELET",
-    "location": "USA",
-    "type": "BRACELET",
-    "goldDetails": "14KT WHITE",
-    "inchSize": "US7",
-    "grossWeight": 12.665,
-    "netWeight": 10.209,
-    "totalDiamondWeight": 12.28,
-    "totalStonePcs": 196,
-    "diamondSize": "ROUND",
-    "price": {
-      "totalUsd": 3787.3
-    },
-    "lineItems": []
-  },
-  {
-    "srNo": "S1377",
-    "sourceTab": "Sheet1",
-    "design": "7CT ROUND TENNIS BRACELET",
-    "location": "USA",
-    "type": "BRACELET",
-    "goldDetails": "14KT WHITE",
-    "inchSize": "7 INCH",
-    "grossWeight": 7.599,
-    "netWeight": 6.185,
-    "totalDiamondWeight": 7.07,
-    "totalStonePcs": 51,
-    "diamondSize": "RD",
-    "price": {
-      "totalUsd": 1423.4
-    },
-    "lineItems": []
-  },
-  {
-    "srNo": "S1528C",
-    "sourceTab": "Sheet1",
-    "design": "3CT+ PINK CUSHION SOLITAIRE RING",
-    "location": "USA",
-    "type": "RING",
-    "goldDetails": "14KT WHITE",
-    "inchSize": "US7",
-    "grossWeight": 5.585,
-    "netWeight": 4.818,
-    "totalDiamondWeight": 3.83,
-    "totalStonePcs": 115,
-    "diamondSize": "ROUND",
-    "price": {
-      "totalUsd": 1595
-    },
-    "lineItems": []
-  },
-  {
     "srNo": "S1520C",
-    "sourceTab": "Sheet1",
+    "sourceTab": "MERGED STOCK",
     "design": "40PTS MARQUISE ETERNITY BAND",
     "location": "USA",
     "type": "RING",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14KT YELLOW",
     "inchSize": "US7",
     "grossWeight": 4.675,
@@ -989,542 +3036,21 @@
     "lineItems": []
   },
   {
-    "srNo": "S1358C",
-    "sourceTab": "Sheet1",
-    "design": "50PTS MARQUISE EACH ETERNITY BAND",
+    "srNo": "S1528C",
+    "sourceTab": "MERGED STOCK",
+    "design": "3CT+ PINK CUSHION SOLITAIRE RING",
     "location": "USA",
-    "type": "EARRING",
-    "goldDetails": "14KT WHITE",
-    "inchSize": "US7",
-    "grossWeight": 5.728,
-    "netWeight": 4.064,
-    "totalDiamondWeight": 8.32,
-    "totalStonePcs": 15,
-    "diamondSize": "MQ",
-    "price": {
-      "totalUsd": 1725.9
-    },
-    "lineItems": []
-  },
-  {
-    "srNo": "S0822",
-    "sourceTab": "Sheet1",
-    "design": "10 CT SINGLE LINE TENNIS NECKLACE",
-    "location": "USA",
-    "type": "NECKLACE",
-    "goldDetails": "14K WHITE",
-    "inchSize": "16.5 INCH",
-    "grossWeight": 14.07,
-    "netWeight": 11.798,
-    "totalDiamondWeight": 11.36,
-    "totalStonePcs": 156,
-    "diamondSize": "RD",
-    "price": {
-      "totalUsd": 2423.3
-    },
-    "lineItems": []
-  },
-  {
-    "srNo": "S0322C",
-    "sourceTab": "Sheet1",
-    "design": "5CT ROUND TENNIS BRACELET",
-    "location": "HK",
-    "type": "BRACELET",
-    "goldDetails": "14KT WHITE",
-    "inchSize": "7 INCH",
-    "grossWeight": 5.01,
-    "netWeight": 3.976,
-    "totalDiamondWeight": 5.17,
-    "totalStonePcs": 62,
-    "diamondSize": "RD",
-    "price": {
-      "totalUsd": 951.5
-    },
-    "lineItems": []
-  },
-  {
-    "srNo": "S1221",
-    "sourceTab": "Sheet1",
-    "design": "5CT ROUND TENNIS BRACELET",
-    "location": "HK",
-    "type": "BRACELET",
-    "goldDetails": "14KT YELLOW",
-    "inchSize": "7 INCH",
-    "grossWeight": 5.01,
-    "netWeight": 5.353,
-    "totalDiamondWeight": 5.06,
-    "totalStonePcs": 62,
-    "diamondSize": "RD",
-    "price": {
-      "totalUsd": 1124.2
-    },
-    "lineItems": []
-  },
-  {
-    "srNo": "S0315",
-    "sourceTab": "Sheet1",
-    "design": "3CT ROUND TENNIS BRACELET",
-    "location": "HK",
-    "type": "BRACELET",
-    "goldDetails": "14KT YELLOW",
-    "inchSize": "7 INCH",
-    "grossWeight": 4.62,
-    "netWeight": 3.992,
-    "totalDiamondWeight": 3.14,
-    "totalStonePcs": 80,
-    "diamondSize": "RD",
-    "price": {
-      "totalUsd": 810.7
-    },
-    "lineItems": []
-  },
-  {
-    "srNo": "S0223C",
-    "sourceTab": "Sheet1",
-    "design": "3CT ROUND TENNIS BRACELET",
-    "location": "HK",
-    "type": "BRACELET",
-    "goldDetails": "14KT WHITE",
-    "inchSize": "7 INCH",
-    "grossWeight": 4.55,
-    "netWeight": 3.986,
-    "totalDiamondWeight": 3.01,
-    "totalStonePcs": 80,
-    "diamondSize": "RD",
-    "price": {
-      "totalUsd": 840.4
-    },
-    "lineItems": []
-  },
-  {
-    "srNo": "S0093C",
-    "sourceTab": "Sheet1",
-    "design": "15CT ROUND TENNIS BRACELET",
-    "location": "HK",
-    "type": "BRACELET",
-    "goldDetails": "14KT YELLOW",
-    "inchSize": "7 INCH",
-    "grossWeight": 12.22,
-    "netWeight": 9.206,
-    "totalDiamondWeight": 15.07,
-    "totalStonePcs": 35,
-    "diamondSize": "RD",
-    "price": {
-      "totalUsd": 2873.2
-    },
-    "lineItems": []
-  },
-  {
-    "srNo": "S0212",
-    "sourceTab": "Sheet1",
-    "design": "15CT ROUND TENNIS BRACELET",
-    "location": "HK",
-    "type": "BRACELET",
-    "goldDetails": "14KT WHITE",
-    "inchSize": "7 INCH",
-    "grossWeight": 10.713,
-    "netWeight": 7.573,
-    "totalDiamondWeight": 15.7,
-    "totalStonePcs": 39,
-    "diamondSize": "RD",
-    "price": {
-      "totalUsd": 2415.6
-    },
-    "lineItems": []
-  },
-  {
-    "srNo": "S0622",
-    "sourceTab": "Sheet1",
-    "design": "7CT ROUND TENNIS BRACELET",
-    "location": "HK",
-    "type": "BRACELET",
-    "goldDetails": "14KT YELLOW",
-    "inchSize": "7 INCH",
-    "grossWeight": 6.97,
-    "netWeight": 5.6,
-    "totalDiamondWeight": 7.01,
-    "totalStonePcs": 51,
-    "diamondSize": "RD",
-    "price": {
-      "totalUsd": 1340.9
-    },
-    "lineItems": []
-  },
-  {
-    "srNo": "S0336C",
-    "sourceTab": "Sheet1",
-    "design": "7CT ROUND TENNIS BRACELET",
-    "location": "HK",
-    "type": "BRACELET",
-    "goldDetails": "14KT WHITE",
-    "inchSize": "7 INCH",
-    "grossWeight": 6.98,
-    "netWeight": 5.568,
-    "totalDiamondWeight": 7.06,
-    "totalStonePcs": 53,
-    "diamondSize": "RD",
-    "price": {
-      "totalUsd": 1340.9
-    },
-    "lineItems": []
-  },
-  {
-    "srNo": "S0249",
-    "sourceTab": "Sheet1",
-    "design": "7CT ROUND STRAIGHT LINE TENNIS NECKLACE",
-    "location": "HK",
-    "type": "NECKLACE",
-    "goldDetails": "14KT YELLOW",
-    "inchSize": "16.5 INCH",
-    "grossWeight": 10.744,
-    "netWeight": 9.198,
-    "totalDiamondWeight": 7.73,
-    "totalStonePcs": 175,
-    "diamondSize": "RD",
-    "price": {
-      "totalUsd": 1911.8
-    },
-    "lineItems": []
-  },
-  {
-    "srNo": "S1240C",
-    "sourceTab": "Sheet1",
-    "design": "7CT ROUND STRAIGHT LINE TENNIS NECKLACE",
-    "location": "HK",
-    "type": "NECKLACE",
-    "goldDetails": "14KT WHITE",
-    "inchSize": "16.5 INCH",
-    "grossWeight": 10.92,
-    "netWeight": 9.472,
-    "totalDiamondWeight": 7.24,
-    "totalStonePcs": 182,
-    "diamondSize": "RD",
-    "price": {
-      "totalUsd": 1903
-    },
-    "lineItems": []
-  },
-  {
-    "srNo": "S1237C",
-    "sourceTab": "Sheet1",
-    "design": "7CT ROUND STRAIGHT LINE TENNIS NECKLACE",
-    "location": "HK",
-    "type": "NECKLACE",
-    "goldDetails": "14KT WHITE",
-    "inchSize": "16.5 INCH",
-    "grossWeight": 11.18,
-    "netWeight": 9.746,
-    "totalDiamondWeight": 7.17,
-    "totalStonePcs": 182,
-    "diamondSize": "RD",
-    "price": {
-      "totalUsd": 1932.7
-    },
-    "lineItems": []
-  },
-  {
-    "srNo": "S0201",
-    "sourceTab": "Sheet1",
-    "design": "7CT ROUND STRAIGHT LINE TENNIS NECKLACE",
-    "location": "HK",
-    "type": "NECKLACE",
-    "goldDetails": "14KT YELLOW",
-    "inchSize": "16.5 INCH",
-    "grossWeight": 11.021,
-    "netWeight": 9.615,
-    "totalDiamondWeight": 7.03,
-    "totalStonePcs": 175,
-    "diamondSize": "RD",
-    "price": {
-      "totalUsd": 1903
-    },
-    "lineItems": []
-  },
-  {
-    "srNo": "S0704C",
-    "sourceTab": "Sheet1",
-    "design": "COLOUR DIAMOND ALL MIX FANCY TENNIS BRACELET",
-    "location": "HK",
-    "type": "BRACELET",
-    "goldDetails": "14KT WHITE",
-    "inchSize": "US7",
-    "grossWeight": 11.975,
-    "netWeight": 9.187,
-    "totalDiamondWeight": 13.94,
-    "totalStonePcs": 217,
-    "diamondSize": "MIX",
-    "price": {
-      "totalUsd": 4483.6
-    },
-    "lineItems": []
-  },
-  {
-    "srNo": "S1111",
-    "sourceTab": "Sheet1",
-    "design": "2CTS ROUND ETERNITY BAND",
-    "location": "HK",
     "type": "RING",
-    "goldDetails": "14KT YELLOW",
-    "inchSize": "US7",
-    "grossWeight": 1.712,
-    "netWeight": 1.29,
-    "totalDiamondWeight": 2.11,
-    "totalStonePcs": 21,
-    "diamondSize": "RD",
-    "price": {
-      "totalUsd": 360.8
-    },
-    "lineItems": []
-  },
-  {
-    "srNo": "S1113",
-    "sourceTab": "Sheet1",
-    "design": "2CTS ROUND ETERNITY BAND",
-    "location": "HK",
-    "type": "RING",
+    "sourceFile": "Seyaa HK",
     "goldDetails": "14KT WHITE",
     "inchSize": "US7",
-    "grossWeight": 1.718,
-    "netWeight": 1.39,
-    "totalDiamondWeight": 2.08,
-    "totalStonePcs": 21,
-    "diamondSize": "RD",
+    "grossWeight": 5.585,
+    "netWeight": 4.818,
+    "totalDiamondWeight": 3.83,
+    "totalStonePcs": 115,
+    "diamondSize": "ROUND",
     "price": {
-      "totalUsd": 370.7
-    },
-    "lineItems": []
-  },
-  {
-    "srNo": "S1117",
-    "sourceTab": "Sheet1",
-    "design": "4CTS ROUND ETERNITY BAND",
-    "location": "HK",
-    "type": "RING",
-    "goldDetails": "14KT YELLOW",
-    "inchSize": "US7",
-    "grossWeight": 2.525,
-    "netWeight": 1.767,
-    "totalDiamondWeight": 4.01,
-    "totalStonePcs": 17,
-    "diamondSize": "RD",
-    "price": {
-      "totalUsd": 674.3
-    },
-    "lineItems": []
-  },
-  {
-    "srNo": "S1153",
-    "sourceTab": "Sheet1",
-    "design": "5CTS ROUND ETERNITY BAND",
-    "location": "HK",
-    "type": "RING",
-    "goldDetails": "14KT WHITE",
-    "inchSize": "US7",
-    "grossWeight": 3.495,
-    "netWeight": 2.457,
-    "totalDiamondWeight": 5.19,
-    "totalStonePcs": 16,
-    "diamondSize": "RD",
-    "price": {
-      "totalUsd": 895.4
-    },
-    "lineItems": []
-  },
-  {
-    "srNo": "S1154",
-    "sourceTab": "Sheet1",
-    "design": "2CTS ROUND ETERNITY BAND",
-    "location": "HK",
-    "type": "RING",
-    "goldDetails": "14KT YELLOW",
-    "inchSize": "US7",
-    "grossWeight": 1.79,
-    "netWeight": 1.368,
-    "totalDiamondWeight": 2.11,
-    "totalStonePcs": 21,
-    "diamondSize": "RD",
-    "price": {
-      "totalUsd": 370.7
-    },
-    "lineItems": []
-  },
-  {
-    "srNo": "S1160",
-    "sourceTab": "Sheet1",
-    "design": "4CTS ROUND ETERNITY BAND",
-    "location": "HK",
-    "type": "RING",
-    "goldDetails": "14KT YELLOW",
-    "inchSize": "US7",
-    "grossWeight": 2.695,
-    "netWeight": 1.947,
-    "totalDiamondWeight": 4.01,
-    "totalStonePcs": 17,
-    "diamondSize": "RD",
-    "price": {
-      "totalUsd": 698.5
-    },
-    "lineItems": []
-  },
-  {
-    "srNo": "S1161",
-    "sourceTab": "Sheet1",
-    "design": "5CTS ROUND ETERNITY BAND",
-    "location": "HK",
-    "type": "RING",
-    "goldDetails": "14KT YELLOW",
-    "inchSize": "US7",
-    "grossWeight": 3.638,
-    "netWeight": 2.592,
-    "totalDiamondWeight": 5.23,
-    "totalStonePcs": 16,
-    "diamondSize": "RD",
-    "price": {
-      "totalUsd": 917.4
-    },
-    "lineItems": []
-  },
-  {
-    "srNo": "S1167",
-    "sourceTab": "Sheet1",
-    "design": "5CTS ROUND ETERNITY BAND",
-    "location": "HK",
-    "type": "RING",
-    "goldDetails": "14KT WHITE",
-    "inchSize": "US7",
-    "grossWeight": 3.275,
-    "netWeight": 2.433,
-    "totalDiamondWeight": 5.21,
-    "totalStonePcs": 16,
-    "diamondSize": "RD",
-    "price": {
-      "totalUsd": 894.3
-    },
-    "lineItems": []
-  },
-  {
-    "srNo": "S1168",
-    "sourceTab": "Sheet1",
-    "design": "2CTS ROUND ETERNITY BAND",
-    "location": "HK",
-    "type": "RING",
-    "goldDetails": "14KT WHITE",
-    "inchSize": "US7",
-    "grossWeight": 1.75,
-    "netWeight": 1.318,
-    "totalDiamondWeight": 2.16,
-    "totalStonePcs": 21,
-    "diamondSize": "RD",
-    "price": {
-      "totalUsd": 368.5
-    },
-    "lineItems": []
-  },
-  {
-    "srNo": "S1171",
-    "sourceTab": "Sheet1",
-    "design": "5CTS ROUND ETERNITY BAND",
-    "location": "HK",
-    "type": "RING",
-    "goldDetails": "14KT YELLOW",
-    "inchSize": "US7",
-    "grossWeight": 3.505,
-    "netWeight": 2.457,
-    "totalDiamondWeight": 5.24,
-    "totalStonePcs": 16,
-    "diamondSize": "RD",
-    "price": {
-      "totalUsd": 900.9
-    },
-    "lineItems": []
-  },
-  {
-    "srNo": "A1219",
-    "sourceTab": "Sheet1",
-    "design": "10CT ROUND TENNIS BRACELET",
-    "location": "HK",
-    "type": "BRACELET",
-    "goldDetails": "14KT WHITE",
-    "inchSize": "7 INCH",
-    "grossWeight": 8.36,
-    "netWeight": 6.4,
-    "totalDiamondWeight": 9.8,
-    "totalStonePcs": 48,
-    "diamondSize": "RD",
-    "price": {
-      "totalUsd": 1922.8
-    },
-    "lineItems": []
-  },
-  {
-    "srNo": "A1134",
-    "sourceTab": "Sheet1",
-    "design": "10CT ROUND GRADUATED NECKLACE",
-    "location": "HK",
-    "type": "NECKLACE",
-    "goldDetails": "14K WHITE",
-    "inchSize": "16.5 INCH",
-    "grossWeight": 17.038,
-    "netWeight": 14.886,
-    "totalDiamondWeight": 10.72,
-    "totalStonePcs": 175,
-    "diamondSize": "RD",
-    "price": {
-      "totalUsd": 3012.9
-    },
-    "lineItems": []
-  },
-  {
-    "srNo": "A1230",
-    "sourceTab": "Sheet1",
-    "design": "20CT ROUND STRAIGHT LINE TENNIS NECKLACE",
-    "location": "HK",
-    "type": "NECKLACE",
-    "goldDetails": "14KT WHITE",
-    "inchSize": "16.5 INCH",
-    "grossWeight": 16.371,
-    "netWeight": 12.291,
-    "totalDiamondWeight": 20.4,
-    "totalStonePcs": 102,
-    "diamondSize": "RD",
-    "price": {
-      "totalUsd": 3866.5
-    },
-    "lineItems": []
-  },
-  {
-    "srNo": "A1123",
-    "sourceTab": "Sheet1",
-    "design": "15CT ALL MIX FANCY TENNIS BRACELET",
-    "location": "HK",
-    "type": "BRACELET",
-    "goldDetails": "14KT WHITE",
-    "inchSize": "NA",
-    "grossWeight": 12.073,
-    "netWeight": 8.917,
-    "totalDiamondWeight": 15.78,
-    "totalStonePcs": 34,
-    "diamondSize": "MIX",
-    "price": {
-      "totalUsd": 3355
-    },
-    "lineItems": []
-  },
-  {
-    "srNo": "A0885",
-    "sourceTab": "Sheet1",
-    "design": "10PTS EACH PEAR TENNIS BRACELET",
-    "location": "HK",
-    "type": "BRACELET",
-    "goldDetails": "14KT WHITE",
-    "inchSize": "7 INCH",
-    "grossWeight": 7.934,
-    "netWeight": 6.754,
-    "totalDiamondWeight": 5.9,
-    "totalStonePcs": 61,
-    "diamondSize": "PE",
-    "price": {
-      "totalUsd": 1734.7
+      "totalUsd": 1595
     },
     "lineItems": []
   }

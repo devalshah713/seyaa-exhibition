@@ -32,6 +32,8 @@ export type Quotation = {
   stockCode?: string;
   /** Product category from the sheet's TYPE column (RING, BRACELET, …). */
   type?: string;
+  /** Which source workbook a row came from, in a merged sheet. */
+  sourceFile?: string;
   location?: string;
   partyName?: string;
   goldDetails?: string;

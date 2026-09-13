@@ -68,6 +68,10 @@ const HEADER_ALIASES = {
   "diamond pics": "totalStonePcs", "diamond pcs": "totalStonePcs",
   "diamond pieces": "totalStonePcs", "no of diamonds": "totalStonePcs",
   "diamond size": "diamondSize", "dia size": "diamondSize",
+  "diamond size / sieve": "diamondSize", "diamond size/sieve": "diamondSize",
+  "diamond sieve": "diamondSize", "sieve": "diamondSize",
+  // Provenance in a merged workbook — recorded, not shown on the card.
+  "source file": "sourceFile", "source": "sourceFile",
   "stone weight breakup": "stoneWeightBreakup", "stone wt breakup": "stoneWeightBreakup",
   "stone pcs.": "stonePcs", "stone pcs": "stonePcs",
   "total stone pcs": "totalStonePcs", "total stone pcs.": "totalStonePcs",
@@ -87,7 +91,11 @@ const HEADER_ALIASES = {
   "comments": "comments", "remarks": "comments", "comment": "comments",
 };
 
-const SR_HEADERS = new Set(["sr. no.", "sr no.", "sr no", "sr.no.", "srno", "sr", "s. no.", "s no"]);
+// Headers that identify a product row, and so mark the header row itself.
+const SR_HEADERS = new Set([
+  "sr. no.", "sr no.", "sr no", "sr.no.", "srno", "sr", "s. no.", "s no",
+  "stock no.", "stock no", "stock number", "stock code", "stk code", "stock",
+]);
 
 function normalizeHeader(raw) {
   return String(raw ?? "").trim().toLowerCase().replace(/\s+/g, " ");
@@ -171,8 +179,14 @@ function parseSheet(sheetName, sheet) {
   }
 
   const { map: cols, unmapped } = mapColumns(rows[headerIdx]);
+  // Sheets keyed by "STOCK NO." rather than "SR. NO." — the stock number is
+  // then the product's identity, so promote it. Both are searchable either way.
+  if (cols.srNo === undefined && cols.stockCode !== undefined) {
+    cols.srNo = cols.stockCode;
+    delete cols.stockCode;
+  }
   if (cols.srNo === undefined) {
-    console.log(`  [skip] "${sheetName}" — srNo column not mapped`);
+    console.log(`  [skip] "${sheetName}" — no SR/stock-number column mapped`);
     return [];
   }
   if (unmapped.length > 0) {
@@ -219,6 +233,7 @@ function parseSheet(sheetName, sheet) {
         location: str(cellVal(row, cols, "location")),
         partyName: str(cellVal(row, cols, "partyName")),
         type: str(cellVal(row, cols, "type")),
+        sourceFile: str(cellVal(row, cols, "sourceFile")),
         goldDetails: str(cellVal(row, cols, "goldDetails")),
         inchSize: str(cellVal(row, cols, "inchSize")),
         grossWeight: num(cellVal(row, cols, "grossWeight")),

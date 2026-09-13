@@ -11,7 +11,8 @@ detail from the price sheet.
 - **Runs on Cloudflare Workers** via the OpenNext adapter.
 - UI copied from the Wedding Asia module in `devalshah713/seyaa-jewels`.
 
-Currently loaded: **85 products** from the Hong Kong sheet, priced in **USD**.
+Currently loaded: **162 products** from the merged Hong Kong stock sheet,
+priced in **USD**.
 
 ## Getting started
 
@@ -61,10 +62,10 @@ The importer prints what it did:
 
 ```
 Currency: USD
-Sheets found: [ 'Sheet1' ]
-  "Sheet1" → 85 products
-Total products: 85
-  Types: RING, BRACELET, EARRING, PENDANT, NECKLACE, STUD
+Sheets found: [ 'MERGED STOCK' ]
+  "MERGED STOCK" → 162 products
+Total products: 162
+  Types: BRACELET, PENDANT, RING, STUD, CHAIN, NECKLACE, EARRING
 ```
 
 Watch for two lines:
@@ -94,9 +95,12 @@ table.
 
 Notes on column names:
 
-- The header row is the first row containing an `SR.NO.` column.
-- `GOLD WEIGHT` in the Hong Kong sheet holds the karat and colour (`14K WHITE`),
-  not a number, so it maps to the gold description.
+- The header row is the first row containing an SR or stock-number column.
+- A sheet keyed by `STOCK NO.` rather than `SR. NO.` uses that as the product's
+  identity; either way both numbers are searchable.
+- `GOLD WEIGHT` / `GOLD` holds the karat and colour (`14K WHITE`), not a number,
+  so it maps to the gold description.
+- `SOURCE FILE` in a merged workbook is recorded as provenance, not displayed.
 - Blank spacer rows are skipped.
 - Tabs named `Price List`, `Rates` or `Config` are skipped (`SKIP_SHEETS`).
   `Sheet1` is **not** skipped — a single-tab export names its only data tab that.

@@ -74,7 +74,7 @@ export function StockCard({
     { label: "Net Wt", value: q.netWeight },
     { label: "Diamond Wt", value: q.totalDiamondWeight },
     { label: "Diamond Pcs", value: q.totalStonePcs },
-    { label: "Diamond Size", value: q.diamondSize },
+    { label: "Diamond Size / Sieve", value: q.diamondSize },
     { label: "Location", value: q.location },
   ].filter((d) => d.value !== undefined && String(d.value).trim() !== "");
 
@@ -86,9 +86,9 @@ export function StockCard({
           <div className="min-w-0">
             <div className="flex flex-wrap items-center gap-2">
               <span className="rounded-md bg-brand-100 px-2 py-0.5 text-xs font-semibold text-brand-700">
-                SR {q.srNo}
+                Stock {q.srNo}
               </span>
-              {q.stockCode && <Tag>Stock {q.stockCode}</Tag>}
+              {q.stockCode && <Tag>SR {q.stockCode}</Tag>}
               {q.date && <span className="text-xs text-stone-500">{q.date}</span>}
             </div>
             <h2 className="mt-1.5 text-lg font-semibold leading-tight text-stone-900">

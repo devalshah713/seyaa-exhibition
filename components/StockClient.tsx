@@ -98,7 +98,7 @@ export function StockClient() {
         <input
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Enter stock number (e.g. 773, A0025 or S1146C)"
+          placeholder="Enter stock number (e.g. 1002, 773 or S0259C)"
           className="flex-1 rounded-xl border border-stone-300 bg-white px-4 py-3 text-base text-stone-900 outline-none placeholder:text-stone-400 focus:border-brand-600 focus:ring-2 focus:ring-brand-500/30"
           autoFocus
         />
@@ -184,7 +184,7 @@ export function StockClient() {
                     className="flex w-full items-center justify-between gap-3 rounded-lg border border-stone-200 bg-white px-4 py-3 text-left shadow-sm transition-colors hover:border-brand-400"
                   >
                     <span className="min-w-0 truncate text-sm text-stone-700">
-                      <span className="font-semibold text-brand-600">SR {s.srNo}</span>
+                      <span className="font-semibold text-brand-600">Stock {s.srNo}</span>
                       <span className="mx-2 text-stone-400">·</span>
                       {s.design ?? "—"}
                     </span>
@@ -221,16 +221,16 @@ export function StockClient() {
                   key={k}
                   className="inline-flex items-center gap-1 rounded-md bg-brand-100 px-2 py-1 text-xs font-medium text-brand-700"
                 >
-                  SR {s.srNo}
+                  Stock {s.srNo}
                   {specialDiscountMap[k] > 0 && (
                     <span className="text-green-700">
-                      ·-{money(specialDiscountMap[k], PORTAL.currency)}
+                      −{money(specialDiscountMap[k], PORTAL.currency)}
                     </span>
                   )}
                   <button
                     type="button"
                     onClick={() => removeFromExport(k)}
-                    aria-label={`Remove SR ${s.srNo}`}
+                    aria-label={`Remove stock ${s.srNo}`}
                     className="text-brand-700/70 hover:text-brand-900"
                   >
                     ×
