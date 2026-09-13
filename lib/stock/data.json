@@ -1,115 +1,1531 @@
 [
   {
-    "srNo": "S0109",
-    "sourceTab": "Sample",
-    "date": "01-09-2026",
-    "design": "Sample — Solitaire Halo Ring",
-    "stockCode": "SMP-RING-01",
-    "location": "Showroom",
-    "goldDetails": "18K White Gold",
-    "inchSize": "—",
-    "grossWeight": 4.82,
-    "netWeight": 3.91,
-    "totalDiamondWeight": 0.95,
-    "totalStonePcs": 37,
-    "comments": "Placeholder product. Replace by importing the real Excel sheet.",
+    "srNo": "773",
+    "sourceTab": "Sheet1",
+    "design": "HALO RADIANT RING",
+    "location": "USA",
+    "type": "RING",
+    "goldDetails": "14K WHITE",
+    "inchSize": "US 7",
+    "grossWeight": 3.84,
+    "netWeight": 3.452,
+    "totalDiamondWeight": 1.94,
+    "totalStonePcs": 29,
+    "diamondSize": "MIX",
     "price": {
-      "diamondInr": 182500,
-      "goldInr": 41300,
-      "laborInr": 12000,
-      "totalInr": 235800
+      "totalUsd": 739.2
     },
-    "lineItems": [
-      {
-        "shape": "Round",
-        "sieveSize": "Centre",
-        "stoneWeightBreakup": 0.52,
-        "stonePcs": 1,
-        "pointers": 52,
-        "productCode": "RD-052",
-        "diamondPriceInr": 143000
-      },
-      {
-        "shape": "Round",
-        "sieveSize": "+1.10 -1.20",
-        "stoneWeightBreakup": 0.43,
-        "stonePcs": 36,
-        "pointers": 1.2,
-        "productCode": "RD-SML",
-        "diamondPriceInr": 39500
-      }
-    ]
+    "lineItems": []
   },
   {
-    "srNo": "A1396",
-    "sourceTab": "Sample",
-    "date": "01-09-2026",
-    "design": "Sample — Diamond Tennis Bracelet",
-    "stockCode": "SMP-BRAC-02",
-    "location": "Showroom",
-    "goldDetails": "18K Rose Gold",
-    "inchSize": "7.0",
-    "grossWeight": 11.4,
-    "netWeight": 9.62,
-    "totalDiamondWeight": 2.18,
-    "totalStonePcs": 84,
-    "comments": "Placeholder product. Replace by importing the real Excel sheet.",
+    "srNo": "916",
+    "sourceTab": "Sheet1",
+    "design": "OVAL PEAR RING",
+    "location": "USA",
+    "type": "RING",
+    "goldDetails": "14K WHITE",
+    "inchSize": "US 7",
+    "grossWeight": 1.92,
+    "netWeight": 1.65,
+    "totalDiamondWeight": 1.36,
+    "totalStonePcs": 3,
+    "diamondSize": "MIX",
     "price": {
-      "diamondInr": 396000,
-      "goldInr": 101600,
-      "laborInr": 24500,
-      "totalInr": 522100
+      "totalUsd": 412.5
     },
-    "lineItems": [
-      {
-        "shape": "Round",
-        "sieveSize": "+1.70 -1.80",
-        "stoneWeightBreakup": 2.18,
-        "stonePcs": 84,
-        "pointers": 2.6,
-        "productCode": "RD-TEN",
-        "diamondPriceInr": 396000
-      }
-    ]
+    "lineItems": []
   },
   {
-    "srNo": "P0247",
-    "sourceTab": "Sample",
-    "date": "01-09-2026",
-    "design": "Sample — Marquise Drop Pendant",
-    "stockCode": "SMP-PEND-03",
-    "location": "Showroom",
-    "goldDetails": "14K Yellow Gold",
-    "inchSize": "16.0",
-    "grossWeight": 2.97,
-    "netWeight": 2.44,
-    "totalDiamondWeight": 0.61,
+    "srNo": "996",
+    "sourceTab": "Sheet1",
+    "design": "TUBE ROUND BRACELET",
+    "location": "USA",
+    "type": "BRACELET",
+    "goldDetails": "14K WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 16.3,
+    "netWeight": 13.82,
+    "totalDiamondWeight": 12.4,
+    "totalStonePcs": 975,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 3324.2
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "1459",
+    "sourceTab": "Sheet1",
+    "design": "3 CT TENNIS BRACELET",
+    "location": "USA",
+    "type": "BRACELET",
+    "goldDetails": "14K WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 5.06,
+    "netWeight": 4.434,
+    "totalDiamondWeight": 3.13,
+    "totalStonePcs": 78,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 866.8
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "1642",
+    "sourceTab": "Sheet1",
+    "design": "OVAL TENNIS BRACELET",
+    "location": "USA",
+    "type": "BRACELET",
+    "goldDetails": "14K WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 17.727,
+    "netWeight": 11.205,
+    "totalDiamondWeight": 32.61,
+    "totalStonePcs": 31,
+    "diamondSize": "OV",
+    "price": {
+      "totalUsd": 6142.4
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "1645",
+    "sourceTab": "Sheet1",
+    "design": "1 CT ROUND TENNIS BRACELET",
+    "location": "USA",
+    "type": "BRACELET",
+    "goldDetails": "14K WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 21.9,
+    "netWeight": 16.64,
+    "totalDiamondWeight": 26.29,
+    "totalStonePcs": 28,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 5088.6
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "2348",
+    "sourceTab": "Sheet1",
+    "design": "15 CT EMERALD ETERNITY BAND",
+    "location": "USA",
+    "type": "RING",
+    "goldDetails": "14K WHITE",
+    "inchSize": "US7",
+    "grossWeight": 6.82,
+    "netWeight": 3.9,
+    "totalDiamondWeight": 14.6,
+    "totalStonePcs": 14,
+    "diamondSize": "EM",
+    "price": {
+      "totalUsd": 2602.6
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "2395",
+    "sourceTab": "Sheet1",
+    "design": "10 CT TENNIS BRACELET",
+    "location": "USA",
+    "type": "BRACELET",
+    "goldDetails": "14K YELLOW",
+    "inchSize": "7 INCH",
+    "grossWeight": 9.062,
+    "netWeight": 6.918,
+    "totalDiamondWeight": 10.72,
+    "totalStonePcs": 46,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 2092.2
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "2474",
+    "sourceTab": "Sheet1",
+    "design": "RADIANT SOLITAIRE BAND",
+    "location": "USA",
+    "type": "RING",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US7",
+    "grossWeight": 2.55,
+    "netWeight": 1.938,
+    "totalDiamondWeight": 3.06,
+    "totalStonePcs": 9,
+    "diamondSize": "MIX",
+    "price": {
+      "totalUsd": 684.2
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "2496",
+    "sourceTab": "Sheet1",
+    "design": "10 CT TENNIS BRACELET",
+    "location": "USA",
+    "type": "BRACELET",
+    "goldDetails": "14K YELLOW",
+    "inchSize": "7.5 INCH",
+    "grossWeight": 9.36,
+    "netWeight": 7.388,
+    "totalDiamondWeight": 9.86,
+    "totalStonePcs": 46,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 2059.2
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0025",
+    "sourceTab": "Sheet1",
+    "design": "10 CT TENNIS BRACELET",
+    "location": "USA",
+    "type": "BRACELET",
+    "goldDetails": "14K YELLOW",
+    "inchSize": "7 INCH",
+    "grossWeight": 9.48,
+    "netWeight": 7.514,
+    "totalDiamondWeight": 9.83,
+    "totalStonePcs": 46,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 2072.4
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0600",
+    "sourceTab": "Sheet1",
+    "design": "EMERALD / PRINCESS FANCY SOLITAIRE RING",
+    "location": "USA",
+    "type": "RING",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US7",
+    "grossWeight": 3.94,
+    "netWeight": 2.962,
+    "totalDiamondWeight": 4.89,
+    "totalStonePcs": 7,
+    "diamondSize": "MIX",
+    "price": {
+      "totalUsd": 1090.1
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0725",
+    "sourceTab": "Sheet1",
+    "design": "10 CT TENNIS BRACELET",
+    "location": "USA",
+    "type": "BRACELET",
+    "goldDetails": "14K WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 8.93,
+    "netWeight": 6.95,
+    "totalDiamondWeight": 9.9,
+    "totalStonePcs": 9.9,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 2018.5
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0761",
+    "sourceTab": "Sheet1",
+    "design": "1cts ALL ROUND DIAMOND RING",
+    "location": "USA",
+    "type": "RING",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US7",
+    "grossWeight": 5.64,
+    "netWeight": 4.704,
+    "totalDiamondWeight": 4.68,
+    "totalStonePcs": 213,
+    "diamondSize": "RND",
+    "price": {
+      "totalUsd": 1196.8
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0884",
+    "sourceTab": "Sheet1",
+    "design": "7 CT PEAR TENNIS BRACELET",
+    "location": "USA",
+    "type": "BRACELET",
+    "goldDetails": "14K WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 9.559,
+    "netWeight": 8.137,
+    "totalDiamondWeight": 7.11,
+    "totalStonePcs": 66,
+    "diamondSize": "PE",
+    "price": {
+      "totalUsd": 2091.1
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0951",
+    "sourceTab": "Sheet1",
+    "design": "PEAR DANGLING EARRING",
+    "location": "USA",
+    "type": "EARRING",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "NA",
+    "grossWeight": 2.077,
+    "netWeight": 1.763,
+    "totalDiamondWeight": 1.57,
+    "totalStonePcs": 4,
+    "diamondSize": "PEAR",
+    "price": {
+      "totalUsd": 457.6
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A1064",
+    "sourceTab": "Sheet1",
+    "design": "HIPOP MOUSE PENDANT",
+    "location": "USA",
+    "type": "PENDANT",
+    "goldDetails": "14K YELLOW",
+    "inchSize": "US",
+    "grossWeight": 11.27,
+    "netWeight": 10.038,
+    "totalDiamondWeight": 6.16,
+    "totalStonePcs": 553,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 2121.9
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A1068",
+    "sourceTab": "Sheet1",
+    "design": "HIPOP MICHAEL JACKSON PRNDANT",
+    "location": "USA",
+    "type": "PENDANT",
+    "goldDetails": "14K WHITE",
+    "inchSize": "NA",
+    "grossWeight": 11.73,
+    "netWeight": 10.884,
+    "totalDiamondWeight": 4.23,
+    "totalStonePcs": 780,
+    "price": {
+      "totalUsd": 2185.7
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A1144",
+    "sourceTab": "Sheet1",
+    "design": "HIPOP MONEY HEIST PENDANT",
+    "location": "USA",
+    "type": "PENDANT",
+    "goldDetails": "14K WHITE",
+    "inchSize": "US",
+    "grossWeight": 11.58,
+    "netWeight": 10.908,
+    "totalDiamondWeight": 3.36,
+    "totalStonePcs": 396,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 2058.1
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A1400",
+    "sourceTab": "Sheet1",
+    "design": "20 CT STRAIGHT LINE TENNIS NECKLACE",
+    "location": "USA",
+    "type": "NECKLACE",
+    "goldDetails": "14K YELLOW",
+    "inchSize": "16.5 INCH",
+    "grossWeight": 16.608,
+    "netWeight": 12.556,
+    "totalDiamondWeight": 20.26,
+    "totalStonePcs": 102,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 3886.3
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A1671",
+    "sourceTab": "Sheet1",
+    "design": "2 CT PEAR ETERNITY BAND",
+    "location": "USA",
+    "type": "RING",
+    "goldDetails": "14K WHITE",
+    "inchSize": "US 7",
+    "grossWeight": 2.24,
+    "netWeight": 1.788,
+    "totalDiamondWeight": 2.26,
+    "totalStonePcs": 26,
+    "diamondSize": "PE",
+    "price": {
+      "totalUsd": 558.8
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A1830",
+    "sourceTab": "Sheet1",
+    "design": "3 CT OVAL ETERNITY BAND",
+    "location": "USA",
+    "type": "RING",
+    "goldDetails": "14K WHITE",
+    "inchSize": "US7",
+    "grossWeight": 2.76,
+    "netWeight": 2.158,
+    "totalDiamondWeight": 3.01,
+    "totalStonePcs": 20,
+    "diamondSize": "OV",
+    "price": {
+      "totalUsd": 715
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A2112",
+    "sourceTab": "Sheet1",
+    "design": "1CT EACH FANCY MIX DANGLING EARRINGS",
+    "location": "USA",
+    "type": "STUD",
+    "goldDetails": "14K WHITE",
+    "inchSize": "US",
+    "grossWeight": 5.65,
+    "netWeight": 4.228,
+    "totalDiamondWeight": 7.11,
+    "totalStonePcs": 8,
+    "diamondSize": "MIX",
+    "price": {
+      "totalUsd": 1513.6
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A2120",
+    "sourceTab": "Sheet1",
+    "design": "ROUND GRADUATED DANGLING EARRINGS",
+    "location": "USA",
+    "type": "STUD",
+    "goldDetails": "14K WHITE",
+    "inchSize": "NA",
+    "grossWeight": 4.65,
+    "netWeight": 3.45,
+    "totalDiamondWeight": 6,
+    "totalStonePcs": 14,
+    "diamondSize": "MIX",
+    "price": {
+      "totalUsd": 507.1
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A2160",
+    "sourceTab": "Sheet1",
+    "design": "PEAR GRADUATED DANGLING EARRINGS",
+    "location": "USA",
+    "type": "EARRING",
+    "goldDetails": "14K WHITE",
+    "inchSize": "NA",
+    "grossWeight": 3.67,
+    "netWeight": 2.66,
+    "totalDiamondWeight": 5.05,
+    "totalStonePcs": 10,
+    "diamondSize": "PEAR",
+    "price": {
+      "totalUsd": 1073.6
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "CA0429",
+    "sourceTab": "Sheet1",
+    "design": "Pink Round Eternity Band",
+    "location": "USA",
+    "type": "RING",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US7",
+    "grossWeight": 4.72,
+    "netWeight": 4.344,
+    "totalDiamondWeight": 1.88,
     "totalStonePcs": 22,
+    "diamondSize": "ROUND",
     "price": {
-      "diamondInr": 88400,
-      "goldInr": 23900,
-      "laborInr": 8500,
-      "totalInr": 120800
+      "totalUsd": 1090.1
     },
-    "lineItems": [
-      {
-        "shape": "Marquise",
-        "sieveSize": "Centre",
-        "stoneWeightBreakup": 0.34,
-        "stonePcs": 1,
-        "pointers": 34,
-        "productCode": "MQ-034",
-        "diamondPriceInr": 61200
-      },
-      {
-        "shape": "Round",
-        "sieveSize": "+1.00 -1.10",
-        "stoneWeightBreakup": 0.27,
-        "stonePcs": 21,
-        "pointers": 1.3,
-        "productCode": "RD-SML",
-        "diamondPriceInr": 27200
-      }
-    ]
+    "lineItems": []
+  },
+  {
+    "srNo": "S0004C",
+    "sourceTab": "Sheet1",
+    "design": "17 CT OVAL BEZEL TENNIS BRACELET",
+    "location": "USA",
+    "type": "BRACELET",
+    "goldDetails": "14K WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 16.265,
+    "netWeight": 12.832,
+    "totalDiamondWeight": 17.165,
+    "totalStonePcs": 31,
+    "diamondSize": "OV",
+    "price": {
+      "totalUsd": 4148.1
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0213C",
+    "sourceTab": "Sheet1",
+    "design": "10PTS EACH ROUND ETERNITY BAND",
+    "location": "USA",
+    "type": "RING",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US7",
+    "grossWeight": 2.946,
+    "netWeight": 2.668,
+    "totalDiamondWeight": 1.39,
+    "totalStonePcs": 14,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 477.4
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0250C",
+    "sourceTab": "Sheet1",
+    "design": "M LETTER PENDANT CHAIN",
+    "location": "USA",
+    "type": "PENDANT",
+    "goldDetails": "14K YELLOW",
+    "inchSize": "US",
+    "grossWeight": 8.165,
+    "netWeight": 7.141,
+    "totalDiamondWeight": 5.12,
+    "totalStonePcs": 1,
+    "diamondSize": "M",
+    "price": {
+      "totalUsd": 2350.7
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0259C",
+    "sourceTab": "Sheet1",
+    "design": "MIX COLOUR FANCY DIAMOND NECKLACE",
+    "location": "USA",
+    "type": "NECKLACE",
+    "goldDetails": "14K WHITE",
+    "inchSize": "18 INCH",
+    "grossWeight": 33.759,
+    "netWeight": 23.715,
+    "totalDiamondWeight": 50.22,
+    "totalStonePcs": 858,
+    "diamondSize": "MIX",
+    "price": {
+      "totalUsd": 15182.2
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0314",
+    "sourceTab": "Sheet1",
+    "design": "3CT ROUND TENNIS BRACELET",
+    "location": "USA",
+    "type": "BRACELET",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "7 INCH",
+    "grossWeight": 4.58,
+    "netWeight": 3.956,
+    "totalDiamondWeight": 3.12,
+    "totalStonePcs": 80,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 804.1
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0373",
+    "sourceTab": "Sheet1",
+    "design": "KNOT NECKLACE",
+    "location": "USA",
+    "type": "NECKLACE",
+    "goldDetails": "18K ROSE",
+    "inchSize": "22 INCH",
+    "grossWeight": 14.59,
+    "netWeight": 4.86,
+    "totalDiamondWeight": 48.65,
+    "totalStonePcs": 825,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 4863.1
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0439",
+    "sourceTab": "Sheet1",
+    "design": "5CT ROUND STRAIGHT LINE TENNIS NECKLACE",
+    "location": "USA",
+    "type": "NECKLACE",
+    "goldDetails": "14K WHITE",
+    "inchSize": "16.5 INCH",
+    "grossWeight": 9.78,
+    "netWeight": 8.834,
+    "totalDiamondWeight": 5.01,
+    "totalStonePcs": 188,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 1689.6
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0613",
+    "sourceTab": "Sheet1",
+    "design": "7 CT TENNIS BRACELET",
+    "location": "USA",
+    "type": "BRACELET",
+    "goldDetails": "14K YELLOW",
+    "inchSize": "7 INCH",
+    "grossWeight": 7,
+    "netWeight": 5.636,
+    "totalDiamondWeight": 7.01,
+    "totalStonePcs": 51,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 1345.3
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0664C",
+    "sourceTab": "Sheet1",
+    "design": "2CT+ YELLOW CUSHION HALO RING",
+    "location": "USA",
+    "type": "RING",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US7",
+    "grossWeight": 4,
+    "netWeight": 3.304,
+    "totalDiamondWeight": 3.48,
+    "totalStonePcs": 42,
+    "diamondSize": "MIX",
+    "price": {
+      "totalUsd": 1292.5
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0742",
+    "sourceTab": "Sheet1",
+    "design": "5CT ROUND STRAIGHT LINE TENNIS NECKLACE",
+    "location": "USA",
+    "type": "NECKLACE",
+    "goldDetails": "14K WHITE",
+    "inchSize": "16.5 INCH",
+    "grossWeight": 9.95,
+    "netWeight": 8.974,
+    "totalDiamondWeight": 5.01,
+    "totalStonePcs": 188,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 1708.3
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0797",
+    "sourceTab": "Sheet1",
+    "design": "7 CT STRAIGHT LINE TENNIS NECKLACE",
+    "location": "USA",
+    "type": "NECKLACE",
+    "goldDetails": "14K WHITE",
+    "inchSize": "16.5 INCH",
+    "grossWeight": 11.08,
+    "netWeight": 9.622,
+    "totalDiamondWeight": 7.29,
+    "totalStonePcs": 182,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 1927.2
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0840",
+    "sourceTab": "Sheet1",
+    "design": "7 CT STRAIGHT LINE TENNIS NECKLACE",
+    "location": "USA",
+    "type": "NECKLACE",
+    "goldDetails": "14K WHITE",
+    "inchSize": "16.5 INCH",
+    "grossWeight": 11.2,
+    "netWeight": 9.738,
+    "totalDiamondWeight": 7.31,
+    "totalStonePcs": 182,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 1944.8
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0843",
+    "sourceTab": "Sheet1",
+    "design": "7 CT STRAIGHT LINE TENNIS NECKLACE",
+    "location": "USA",
+    "type": "NECKLACE",
+    "goldDetails": "14K WHITE",
+    "inchSize": "16.5 INCH",
+    "grossWeight": 11.1,
+    "netWeight": 9.646,
+    "totalDiamondWeight": 7.27,
+    "totalStonePcs": 182,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 1929.4
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1022",
+    "sourceTab": "Sheet1",
+    "design": "7 CT STRAIGHT LINE TENNIS NECKLACE",
+    "location": "USA",
+    "type": "NECKLACE",
+    "goldDetails": "14K YELLOW",
+    "inchSize": "16.5 INCH",
+    "grossWeight": 9.87,
+    "netWeight": 8.53,
+    "totalDiamondWeight": 7.01,
+    "totalStonePcs": 182,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 1859
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1047",
+    "sourceTab": "Sheet1",
+    "design": "5CT ROUND STRAIGHT LINE TENNIS NECKLACE",
+    "location": "USA",
+    "type": "NECKLACE",
+    "goldDetails": "14K WHITE",
+    "inchSize": "16.5 INCH",
+    "grossWeight": 10.36,
+    "netWeight": 9.374,
+    "totalDiamondWeight": 5.01,
+    "totalStonePcs": 188,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 1689.6
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1051",
+    "sourceTab": "Sheet1",
+    "design": "10 CT SINGLE LINE TENNIS NECKLACE",
+    "location": "USA",
+    "type": "NECKLACE",
+    "goldDetails": "14K YELLOW",
+    "inchSize": "16.5 INCH",
+    "grossWeight": 13.93,
+    "netWeight": 11.987,
+    "totalDiamondWeight": 10.01,
+    "totalStonePcs": 156,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 2407.9
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1146C",
+    "sourceTab": "Sheet1",
+    "design": "TOI EI MOI STUDDS PEAR & EMERALD",
+    "location": "USA",
+    "type": "STUD",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "NA",
+    "grossWeight": 1.81,
+    "netWeight": 1.282,
+    "totalDiamondWeight": 2.64,
+    "totalStonePcs": 4,
+    "diamondSize": "MIX",
+    "price": {
+      "totalUsd": 546.7
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1170C",
+    "sourceTab": "Sheet1",
+    "design": "4CT PINK CUSHION SOLITAIRE RING",
+    "location": "USA",
+    "type": "RING",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US7",
+    "grossWeight": 4.046,
+    "netWeight": 3.176,
+    "totalDiamondWeight": 4.35,
+    "totalStonePcs": 33,
+    "diamondSize": "MIX",
+    "price": {
+      "totalUsd": 1566.4
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1209C",
+    "sourceTab": "Sheet1",
+    "design": "5CT+ YELLOW RECTANGULAR SOLITAIRE HALO RING",
+    "location": "USA",
+    "type": "RING",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US7",
+    "grossWeight": 5.175,
+    "netWeight": 3.91,
+    "totalDiamondWeight": 6.33,
+    "totalStonePcs": 77,
+    "diamondSize": "MIX",
+    "price": {
+      "totalUsd": 2094.4
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1233C",
+    "sourceTab": "Sheet1",
+    "design": "3CT+ BLUE OVAL SOLITAIRE RING",
+    "location": "USA",
+    "type": "RING",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US7",
+    "grossWeight": 4.238,
+    "netWeight": 3.412,
+    "totalDiamondWeight": 4.13,
+    "totalStonePcs": 37,
+    "diamondSize": "MIX",
+    "price": {
+      "totalUsd": 1500.4
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1241C",
+    "sourceTab": "Sheet1",
+    "design": "1CT+ BLUE RECTANGULAR SOLITAIRE RING",
+    "location": "USA",
+    "type": "RING",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US7",
+    "grossWeight": 2.3,
+    "netWeight": 1.96,
+    "totalDiamondWeight": 1.7,
+    "totalStonePcs": 21,
+    "diamondSize": "MIX",
+    "price": {
+      "totalUsd": 695.2
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1249C",
+    "sourceTab": "Sheet1",
+    "design": "3CT+ PINK DIAMOND SOLITAIRE RING",
+    "location": "USA",
+    "type": "RING",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US7",
+    "grossWeight": 4.635,
+    "netWeight": 3.941,
+    "totalDiamondWeight": 3.47,
+    "totalStonePcs": 79,
+    "diamondSize": "MIX",
+    "price": {
+      "totalUsd": 1430
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1397",
+    "sourceTab": "Sheet1",
+    "design": "15 CT STRAIGHT LINE TENNIS NECKLACE",
+    "location": "USA",
+    "type": "NECKLACE",
+    "goldDetails": "14K WHITE",
+    "inchSize": "16.5 INCH",
+    "grossWeight": 16.32,
+    "netWeight": 13.286,
+    "totalDiamondWeight": 15.17,
+    "totalStonePcs": 120,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 3055.8
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1438C",
+    "sourceTab": "Sheet1",
+    "design": "15 CT STRAIGHT LINE TENNIS NECKLACE",
+    "location": "USA",
+    "type": "NECKLACE",
+    "goldDetails": "14K YELLOW",
+    "inchSize": "16.5 INCH",
+    "grossWeight": 15.6,
+    "netWeight": 12.556,
+    "totalDiamondWeight": 15.22,
+    "totalStonePcs": 120,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 2963.4
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1499C",
+    "sourceTab": "Sheet1",
+    "design": "PEAR & MARQUISE BUTTERFLY PENDANT",
+    "location": "USA",
+    "type": "PENDANT",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "NA",
+    "grossWeight": 3.09,
+    "netWeight": 2.59,
+    "totalDiamondWeight": 2.5,
+    "totalStonePcs": 4,
+    "diamondSize": "MARQUISE",
+    "price": {
+      "totalUsd": 699.6
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1392C",
+    "sourceTab": "Sheet1",
+    "design": "COLOUR DIAMOND ALL MIX FANCY TENNIS BRACELET",
+    "location": "USA",
+    "type": "BRACELET",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US7",
+    "grossWeight": 12.665,
+    "netWeight": 10.209,
+    "totalDiamondWeight": 12.28,
+    "totalStonePcs": 196,
+    "diamondSize": "ROUND",
+    "price": {
+      "totalUsd": 3787.3
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1377",
+    "sourceTab": "Sheet1",
+    "design": "7CT ROUND TENNIS BRACELET",
+    "location": "USA",
+    "type": "BRACELET",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 7.599,
+    "netWeight": 6.185,
+    "totalDiamondWeight": 7.07,
+    "totalStonePcs": 51,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 1423.4
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1528C",
+    "sourceTab": "Sheet1",
+    "design": "3CT+ PINK CUSHION SOLITAIRE RING",
+    "location": "USA",
+    "type": "RING",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US7",
+    "grossWeight": 5.585,
+    "netWeight": 4.818,
+    "totalDiamondWeight": 3.83,
+    "totalStonePcs": 115,
+    "diamondSize": "ROUND",
+    "price": {
+      "totalUsd": 1595
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1520C",
+    "sourceTab": "Sheet1",
+    "design": "40PTS MARQUISE ETERNITY BAND",
+    "location": "USA",
+    "type": "RING",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "US7",
+    "grossWeight": 4.675,
+    "netWeight": 3.391,
+    "totalDiamondWeight": 6.42,
+    "totalStonePcs": 16,
+    "diamondSize": "MQ",
+    "price": {
+      "totalUsd": 1366.2
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1358C",
+    "sourceTab": "Sheet1",
+    "design": "50PTS MARQUISE EACH ETERNITY BAND",
+    "location": "USA",
+    "type": "EARRING",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US7",
+    "grossWeight": 5.728,
+    "netWeight": 4.064,
+    "totalDiamondWeight": 8.32,
+    "totalStonePcs": 15,
+    "diamondSize": "MQ",
+    "price": {
+      "totalUsd": 1725.9
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0822",
+    "sourceTab": "Sheet1",
+    "design": "10 CT SINGLE LINE TENNIS NECKLACE",
+    "location": "USA",
+    "type": "NECKLACE",
+    "goldDetails": "14K WHITE",
+    "inchSize": "16.5 INCH",
+    "grossWeight": 14.07,
+    "netWeight": 11.798,
+    "totalDiamondWeight": 11.36,
+    "totalStonePcs": 156,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 2423.3
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0322C",
+    "sourceTab": "Sheet1",
+    "design": "5CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 5.01,
+    "netWeight": 3.976,
+    "totalDiamondWeight": 5.17,
+    "totalStonePcs": 62,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 951.5
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1221",
+    "sourceTab": "Sheet1",
+    "design": "5CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "7 INCH",
+    "grossWeight": 5.01,
+    "netWeight": 5.353,
+    "totalDiamondWeight": 5.06,
+    "totalStonePcs": 62,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 1124.2
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0315",
+    "sourceTab": "Sheet1",
+    "design": "3CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "7 INCH",
+    "grossWeight": 4.62,
+    "netWeight": 3.992,
+    "totalDiamondWeight": 3.14,
+    "totalStonePcs": 80,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 810.7
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0223C",
+    "sourceTab": "Sheet1",
+    "design": "3CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 4.55,
+    "netWeight": 3.986,
+    "totalDiamondWeight": 3.01,
+    "totalStonePcs": 80,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 840.4
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0093C",
+    "sourceTab": "Sheet1",
+    "design": "15CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "7 INCH",
+    "grossWeight": 12.22,
+    "netWeight": 9.206,
+    "totalDiamondWeight": 15.07,
+    "totalStonePcs": 35,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 2873.2
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0212",
+    "sourceTab": "Sheet1",
+    "design": "15CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 10.713,
+    "netWeight": 7.573,
+    "totalDiamondWeight": 15.7,
+    "totalStonePcs": 39,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 2415.6
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0622",
+    "sourceTab": "Sheet1",
+    "design": "7CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "7 INCH",
+    "grossWeight": 6.97,
+    "netWeight": 5.6,
+    "totalDiamondWeight": 7.01,
+    "totalStonePcs": 51,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 1340.9
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0336C",
+    "sourceTab": "Sheet1",
+    "design": "7CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 6.98,
+    "netWeight": 5.568,
+    "totalDiamondWeight": 7.06,
+    "totalStonePcs": 53,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 1340.9
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0249",
+    "sourceTab": "Sheet1",
+    "design": "7CT ROUND STRAIGHT LINE TENNIS NECKLACE",
+    "location": "HK",
+    "type": "NECKLACE",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "16.5 INCH",
+    "grossWeight": 10.744,
+    "netWeight": 9.198,
+    "totalDiamondWeight": 7.73,
+    "totalStonePcs": 175,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 1911.8
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1240C",
+    "sourceTab": "Sheet1",
+    "design": "7CT ROUND STRAIGHT LINE TENNIS NECKLACE",
+    "location": "HK",
+    "type": "NECKLACE",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "16.5 INCH",
+    "grossWeight": 10.92,
+    "netWeight": 9.472,
+    "totalDiamondWeight": 7.24,
+    "totalStonePcs": 182,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 1903
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1237C",
+    "sourceTab": "Sheet1",
+    "design": "7CT ROUND STRAIGHT LINE TENNIS NECKLACE",
+    "location": "HK",
+    "type": "NECKLACE",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "16.5 INCH",
+    "grossWeight": 11.18,
+    "netWeight": 9.746,
+    "totalDiamondWeight": 7.17,
+    "totalStonePcs": 182,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 1932.7
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0201",
+    "sourceTab": "Sheet1",
+    "design": "7CT ROUND STRAIGHT LINE TENNIS NECKLACE",
+    "location": "HK",
+    "type": "NECKLACE",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "16.5 INCH",
+    "grossWeight": 11.021,
+    "netWeight": 9.615,
+    "totalDiamondWeight": 7.03,
+    "totalStonePcs": 175,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 1903
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S0704C",
+    "sourceTab": "Sheet1",
+    "design": "COLOUR DIAMOND ALL MIX FANCY TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US7",
+    "grossWeight": 11.975,
+    "netWeight": 9.187,
+    "totalDiamondWeight": 13.94,
+    "totalStonePcs": 217,
+    "diamondSize": "MIX",
+    "price": {
+      "totalUsd": 4483.6
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1111",
+    "sourceTab": "Sheet1",
+    "design": "2CTS ROUND ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "US7",
+    "grossWeight": 1.712,
+    "netWeight": 1.29,
+    "totalDiamondWeight": 2.11,
+    "totalStonePcs": 21,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 360.8
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1113",
+    "sourceTab": "Sheet1",
+    "design": "2CTS ROUND ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US7",
+    "grossWeight": 1.718,
+    "netWeight": 1.39,
+    "totalDiamondWeight": 2.08,
+    "totalStonePcs": 21,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 370.7
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1117",
+    "sourceTab": "Sheet1",
+    "design": "4CTS ROUND ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "US7",
+    "grossWeight": 2.525,
+    "netWeight": 1.767,
+    "totalDiamondWeight": 4.01,
+    "totalStonePcs": 17,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 674.3
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1153",
+    "sourceTab": "Sheet1",
+    "design": "5CTS ROUND ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US7",
+    "grossWeight": 3.495,
+    "netWeight": 2.457,
+    "totalDiamondWeight": 5.19,
+    "totalStonePcs": 16,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 895.4
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1154",
+    "sourceTab": "Sheet1",
+    "design": "2CTS ROUND ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "US7",
+    "grossWeight": 1.79,
+    "netWeight": 1.368,
+    "totalDiamondWeight": 2.11,
+    "totalStonePcs": 21,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 370.7
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1160",
+    "sourceTab": "Sheet1",
+    "design": "4CTS ROUND ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "US7",
+    "grossWeight": 2.695,
+    "netWeight": 1.947,
+    "totalDiamondWeight": 4.01,
+    "totalStonePcs": 17,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 698.5
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1161",
+    "sourceTab": "Sheet1",
+    "design": "5CTS ROUND ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "US7",
+    "grossWeight": 3.638,
+    "netWeight": 2.592,
+    "totalDiamondWeight": 5.23,
+    "totalStonePcs": 16,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 917.4
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1167",
+    "sourceTab": "Sheet1",
+    "design": "5CTS ROUND ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US7",
+    "grossWeight": 3.275,
+    "netWeight": 2.433,
+    "totalDiamondWeight": 5.21,
+    "totalStonePcs": 16,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 894.3
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1168",
+    "sourceTab": "Sheet1",
+    "design": "2CTS ROUND ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "US7",
+    "grossWeight": 1.75,
+    "netWeight": 1.318,
+    "totalDiamondWeight": 2.16,
+    "totalStonePcs": 21,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 368.5
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "S1171",
+    "sourceTab": "Sheet1",
+    "design": "5CTS ROUND ETERNITY BAND",
+    "location": "HK",
+    "type": "RING",
+    "goldDetails": "14KT YELLOW",
+    "inchSize": "US7",
+    "grossWeight": 3.505,
+    "netWeight": 2.457,
+    "totalDiamondWeight": 5.24,
+    "totalStonePcs": 16,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 900.9
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A1219",
+    "sourceTab": "Sheet1",
+    "design": "10CT ROUND TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 8.36,
+    "netWeight": 6.4,
+    "totalDiamondWeight": 9.8,
+    "totalStonePcs": 48,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 1922.8
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A1134",
+    "sourceTab": "Sheet1",
+    "design": "10CT ROUND GRADUATED NECKLACE",
+    "location": "HK",
+    "type": "NECKLACE",
+    "goldDetails": "14K WHITE",
+    "inchSize": "16.5 INCH",
+    "grossWeight": 17.038,
+    "netWeight": 14.886,
+    "totalDiamondWeight": 10.72,
+    "totalStonePcs": 175,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 3012.9
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A1230",
+    "sourceTab": "Sheet1",
+    "design": "20CT ROUND STRAIGHT LINE TENNIS NECKLACE",
+    "location": "HK",
+    "type": "NECKLACE",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "16.5 INCH",
+    "grossWeight": 16.371,
+    "netWeight": 12.291,
+    "totalDiamondWeight": 20.4,
+    "totalStonePcs": 102,
+    "diamondSize": "RD",
+    "price": {
+      "totalUsd": 3866.5
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A1123",
+    "sourceTab": "Sheet1",
+    "design": "15CT ALL MIX FANCY TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "NA",
+    "grossWeight": 12.073,
+    "netWeight": 8.917,
+    "totalDiamondWeight": 15.78,
+    "totalStonePcs": 34,
+    "diamondSize": "MIX",
+    "price": {
+      "totalUsd": 3355
+    },
+    "lineItems": []
+  },
+  {
+    "srNo": "A0885",
+    "sourceTab": "Sheet1",
+    "design": "10PTS EACH PEAR TENNIS BRACELET",
+    "location": "HK",
+    "type": "BRACELET",
+    "goldDetails": "14KT WHITE",
+    "inchSize": "7 INCH",
+    "grossWeight": 7.934,
+    "netWeight": 6.754,
+    "totalDiamondWeight": 5.9,
+    "totalStonePcs": 61,
+    "diamondSize": "PE",
+    "price": {
+      "totalUsd": 1734.7
+    },
+    "lineItems": []
   }
 ]

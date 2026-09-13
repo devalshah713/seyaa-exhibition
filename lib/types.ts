@@ -30,6 +30,8 @@ export type Quotation = {
   date?: string;
   design?: string;
   stockCode?: string;
+  /** Product category from the sheet's TYPE column (RING, BRACELET, …). */
+  type?: string;
   location?: string;
   partyName?: string;
   goldDetails?: string;
@@ -38,12 +40,11 @@ export type Quotation = {
   netWeight?: number;
   totalDiamondWeight?: number;
   totalStonePcs?: number;
+  /** Diamond shape/size summary from a flat sheet's DIAMOND SIZE column. */
+  diamondSize?: string;
   comments?: string;
   price: PriceSummary;
   lineItems: LineItem[];
-  // Set when a specific pendant/variant has been chosen for split-stock items
-  // (e.g. S0145C's "Green Heart" / "Yellow Heart"). Used for display + PDF.
-  variantLabel?: string;
 };
 
 export type Tab = {

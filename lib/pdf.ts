@@ -2,12 +2,19 @@ import type { Quotation } from "@/lib/types";
 import { money, numberOrDash, textOrDash } from "@/lib/format";
 import { PORTAL, applyCoupon, applySpecialDiscount } from "@/lib/config";
 
-// Client-side PDF builder for the sales portal (INR only). Everything runs in
-// the browser — nothing is uploaded anywhere.
+// Client-side PDF builder for the sales portal. Everything runs in the browser
+// — nothing is uploaded anywhere.
+
+const CURRENCY = PORTAL.currency;
 
 // jsPDF's built-in Helvetica has no ₹ glyph; swap it for "Rs " in the PDF only.
 function pdfMoney(value: number | undefined): string {
-  return money(value, "INR").replace("₹", "Rs ");
+  return money(value, CURRENCY).replace("₹", "Rs ");
+}
+
+/** The sheet's price in the configured currency. */
+function totalOf(q: Quotation): number | undefined {
+  return CURRENCY === "USD" ? q.price.totalUsd : q.price.totalInr;
 }
 
 const BRAND: [number, number, number] = [221, 97, 28]; // #dd611c
@@ -23,7 +30,7 @@ export type PdfItem = {
 
 /** Final payable for one item after the coupon and any negotiated discount. */
 function payableOf({ quotation, discounted, specialDiscount }: PdfItem): number | undefined {
-  const total = quotation.price.totalInr;
+  const total = totalOf(quotation);
   const afterCoupon = discounted ? applyCoupon(total) : total;
   const special = specialDiscount && specialDiscount > 0 ? specialDiscount : 0;
   return special > 0 ? applySpecialDiscount(afterCoupon, special) : afterCoupon;
@@ -66,7 +73,7 @@ async function buildDoc(items: PdfItem[]) {
     doc.setFont("helvetica", "normal");
     doc.setFontSize(10);
     doc.setTextColor(120);
-    const meta = [q.stockCode, q.date, q.sourceTab].filter(Boolean).join("  ·  ");
+    const meta = [q.stockCode, q.type, q.location, q.date].filter(Boolean).join("  ·  ");
     if (meta) doc.text(meta, pageWidth - margin, y, { align: "right" });
     y += 17;
     doc.setTextColor(28);
@@ -75,20 +82,35 @@ async function buildDoc(items: PdfItem[]) {
     y += 18;
 
     // Product details
+    const fields: [string, string][] = (
+      [
+        ["Type", q.type],
+        ["Gold", q.goldDetails],
+        ["Inch Size", q.inchSize],
+        ["Gross Wt", q.grossWeight],
+        ["Net Wt", q.netWeight],
+        ["Diamond Wt", q.totalDiamondWeight],
+        ["Diamond Pcs", q.totalStonePcs],
+        ["Diamond Size", q.diamondSize],
+        ["Location", q.location],
+      ] as [string, string | number | undefined][]
+    )
+      .filter(([, v]) => v !== undefined && String(v).trim() !== "")
+      .map(([label, v]) => [label, typeof v === "number" ? numberOrDash(v) : textOrDash(String(v))]);
+
+    // Two label/value pairs per row.
+    const detailRows: string[][] = [];
+    for (let i = 0; i < fields.length; i += 2) {
+      const [l1, v1] = fields[i];
+      const pair = fields[i + 1];
+      detailRows.push(pair ? [l1, v1, pair[0], pair[1]] : [l1, v1, "", ""]);
+    }
+
     autoTable(doc, {
       startY: y,
       theme: "plain",
       styles: { fontSize: 9, cellPadding: 2 },
-      body: [
-        ["Gold", textOrDash(q.goldDetails), "Inch Size", textOrDash(q.inchSize)],
-        ["Gross Wt", numberOrDash(q.grossWeight), "Net Wt", numberOrDash(q.netWeight)],
-        [
-          "Total Diamond Wt",
-          numberOrDash(q.totalDiamondWeight),
-          "Total Stone Pcs",
-          numberOrDash(q.totalStonePcs),
-        ],
-      ],
+      body: detailRows,
       columnStyles: {
         0: { fontStyle: "bold", textColor: 100, cellWidth: 90 },
         2: { fontStyle: "bold", textColor: 100, cellWidth: 90 },
@@ -97,23 +119,27 @@ async function buildDoc(items: PdfItem[]) {
     });
     y = afterTable() + 14;
 
-    // Price summary (INR)
-    const total = q.price.totalInr;
+    // Price summary — with the cost split only when the sheet breaks it down.
+    const total = totalOf(q);
+    const diamond = CURRENCY === "USD" ? q.price.diamondUsd : q.price.diamondInr;
+    const gold = CURRENCY === "USD" ? q.price.goldUsd : q.price.goldInr;
+    const labor = CURRENCY === "USD" ? q.price.laborUsd : q.price.laborInr;
+    const hasCostSplit = diamond !== undefined || gold !== undefined || labor !== undefined;
+
     autoTable(doc, {
       startY: y,
       theme: "grid",
       headStyles: { fillColor: HEAD_LIGHT, textColor: 80, fontSize: 9, fontStyle: "bold" },
       bodyStyles: { fontSize: 11 },
-      head: [["Diamond", "Gold", "Labor", "Sales Price"]],
-      body: [
-        [
-          pdfMoney(q.price.diamondInr),
-          pdfMoney(q.price.goldInr),
-          pdfMoney(q.price.laborInr),
-          pdfMoney(total),
-        ],
-      ],
-      columnStyles: { 3: { fontStyle: "bold", textColor: BRAND } },
+      head: hasCostSplit
+        ? [["Diamond", "Gold", "Labor", "Sales Price"]]
+        : [["Sales Price"]],
+      body: hasCostSplit
+        ? [[pdfMoney(diamond), pdfMoney(gold), pdfMoney(labor), pdfMoney(total)]]
+        : [[pdfMoney(total)]],
+      columnStyles: hasCostSplit
+        ? { 3: { fontStyle: "bold", textColor: BRAND } }
+        : { 0: { fontStyle: "bold", textColor: BRAND } },
       margin: { left: margin, right: margin },
     });
     y = afterTable() + 14;
@@ -130,11 +156,7 @@ async function buildDoc(items: PdfItem[]) {
         rows.push([pdfMoney(afterCoupon), `Coupon ${coupon.code}`, `- ${coupon.percent}%`]);
       }
       if (specialAmt > 0) {
-        rows.push([
-          pdfMoney(finalPayable),
-          "Special discount",
-          `- Rs ${specialAmt.toLocaleString("en-IN")}`,
-        ]);
+        rows.push([pdfMoney(finalPayable), "Special discount", `- ${pdfMoney(specialAmt)}`]);
       }
 
       autoTable(doc, {
@@ -164,7 +186,10 @@ async function buildDoc(items: PdfItem[]) {
         theme: "striped",
         headStyles: { fillColor: HEAD_DARK, textColor: 255, fontSize: 8 },
         bodyStyles: { fontSize: 8 },
-        head: [["Shape", "Sieve / Size", "Wt", "Pcs", "Pointers", "Product Code", "Diamond Rs"]],
+        head: [[
+          "Shape", "Sieve / Size", "Wt", "Pcs", "Pointers", "Product Code",
+          CURRENCY === "USD" ? "Diamond $" : "Diamond Rs",
+        ]],
         body: q.lineItems.map((li) => [
           textOrDash(li.shape),
           textOrDash(li.sieveSize),
@@ -172,7 +197,7 @@ async function buildDoc(items: PdfItem[]) {
           numberOrDash(li.stonePcs),
           numberOrDash(li.pointers),
           textOrDash(li.productCode),
-          pdfMoney(li.diamondPriceInr),
+          pdfMoney(CURRENCY === "USD" ? li.diamondPriceUsd : li.diamondPriceInr),
         ]),
         columnStyles: {
           2: { halign: "right" },

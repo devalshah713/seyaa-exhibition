@@ -17,6 +17,11 @@ export function money(value: number | undefined, currency: Currency): string {
   return currency === "USD" ? usd.format(value) : inr.format(value);
 }
 
+/** The currency symbol on its own, for labels like "Special discount ($)". */
+export function currencySymbol(currency: Currency): string {
+  return currency === "USD" ? "$" : "₹";
+}
+
 export function numberOrDash(value: number | undefined): string {
   if (value === undefined || Number.isNaN(value)) return "—";
   return new Intl.NumberFormat("en-US", { maximumFractionDigits: 3 }).format(value);

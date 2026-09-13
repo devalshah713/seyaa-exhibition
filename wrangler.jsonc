@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "seyaa-exhibition",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-09-13",
+  // OpenNext runs the Next.js server on Workers, which needs Node built-ins.
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "observability": {
+    "enabled": true
+  }
+}

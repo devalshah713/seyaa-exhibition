@@ -4,6 +4,8 @@ import { useRef, useState } from "react";
 import { stockSearchAction } from "@/app/actions";
 import type { LookupResult, Quotation } from "@/lib/types";
 import { StockCard } from "./StockCard";
+import { PORTAL } from "@/lib/config";
+import { money } from "@/lib/format";
 
 const keyOf = (q: Quotation) => `${q.sourceTab}-${q.srNo}`;
 
@@ -96,7 +98,7 @@ export function StockClient() {
         <input
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Enter stock number (e.g. S0109 or A1396)"
+          placeholder="Enter stock number (e.g. 773, A0025 or S1146C)"
           className="flex-1 rounded-xl border border-stone-300 bg-white px-4 py-3 text-base text-stone-900 outline-none placeholder:text-stone-400 focus:border-brand-600 focus:ring-2 focus:ring-brand-500/30"
           autoFocus
         />
@@ -221,7 +223,9 @@ export function StockClient() {
                 >
                   SR {s.srNo}
                   {specialDiscountMap[k] > 0 && (
-                    <span className="text-green-700">·-₹{specialDiscountMap[k]}</span>
+                    <span className="text-green-700">
+                      ·-{money(specialDiscountMap[k], PORTAL.currency)}
+                    </span>
                   )}
                   <button
                     type="button"

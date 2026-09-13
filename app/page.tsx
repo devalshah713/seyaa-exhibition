@@ -27,7 +27,7 @@ export default function Home() {
             </div>
           </div>
           <span className="hidden shrink-0 text-xs text-stone-500 sm:inline">
-            {count.toLocaleString("en-IN")} products
+            {count.toLocaleString("en-US")} products
           </span>
         </div>
       </header>

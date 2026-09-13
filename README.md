@@ -5,63 +5,108 @@ A single-page sales portal for exhibitions. A salesperson opens the URL, types a
 detail from the price sheet.
 
 - **No login.** The portal is open — there is no sign-in step to slow the floor down.
-- **No database, no network.** The whole price sheet is imported from Excel at
-  build time and bundled into the app, so lookups are instant and work on a weak
-  exhibition-hall connection.
-- **UI copied from** the Wedding Asia module in `devalshah713/seyaa-jewels`.
+- **No database, no network calls.** The whole price sheet is imported from Excel
+  at build time and bundled into the app, so lookups are instant and survive a
+  weak exhibition-hall connection.
+- **Runs on Cloudflare Workers** via the OpenNext adapter.
+- UI copied from the Wedding Asia module in `devalshah713/seyaa-jewels`.
+
+Currently loaded: **85 products** from the Hong Kong sheet, priced in **USD**.
 
 ## Getting started
 
 ```bash
 npm install
-npm run dev          # http://localhost:3000
+npm run dev          # http://localhost:3000 — plain Next.js, fastest for UI work
 ```
 
-The app ships with three clearly-labelled **sample** products so you can see the
-UI before the real sheet is loaded. A banner at the top says so.
-
-## Loading the real price sheet
+To run the app exactly as Cloudflare will, on the real Workers runtime:
 
 ```bash
-npm run import-sheet -- /path/to/price-sheet.xlsx
+npm run preview      # builds the worker and serves it locally
 ```
 
-This reads every tab of the workbook, writes `lib/stock/data.json`, and turns the
-sample-data banner off. Re-run it whenever the sheet changes, then redeploy.
+## Deploying to Cloudflare
+
+The project is configured as the Worker **`seyaa-exhibition`** (see
+`wrangler.jsonc`), separate from the existing `seyaa-order` Worker.
+
+```bash
+npx wrangler login   # one time, opens a browser
+npm run deploy
+```
+
+That builds the Worker and publishes it, printing the live
+`https://seyaa-exhibition.<your-subdomain>.workers.dev` URL. Re-running
+`npm run deploy` ships an update.
+
+For automatic deploys on push instead, connect the repo in the Cloudflare
+dashboard under **Workers & Pages → Create → Import a repository**, with build
+command `npx opennextjs-cloudflare build` and the Worker directory left as the
+project root.
+
+No environment variables or secrets are needed — the price sheet ships inside
+the app.
+
+## Loading a new price sheet
+
+```bash
+npm run import-sheet -- /path/to/sheet.xlsx --currency=USD
+```
+
+This reads every tab, writes `lib/stock/data.json`, and updates `lib/config.ts`
+with the currency. Re-run it whenever prices change, then `npm run deploy`.
 
 The importer prints what it did:
 
 ```
-Sheets found: [ 'Rings', 'Bracelets', 'Price List' ]
-  "Rings" → 142 products
-  [note] "Rings" — ignored columns: supplier ref
-  [skip] "Price List" — excluded sheet
-Total products: 268
+Currency: USD
+Sheets found: [ 'Sheet1' ]
+  "Sheet1" → 85 products
+Total products: 85
+  Types: RING, BRACELET, EARRING, PENDANT, NECKLACE, STUD
 ```
 
 Watch for two lines:
 
-- `[note] … ignored columns:` — a column in the sheet that the importer does not
-  recognise. If one of those holds a price you need, add it to `HEADER_ALIASES`
-  in `scripts/generate-data.mjs`.
-- `⚠ N product(s) have no sales price` — those rows will show `—` instead of a
-  price. Usually means the total column is named something new.
+- `[note] … ignored columns:` — a column the importer does not recognise. If one
+  of them holds something you need, add it to `HEADER_ALIASES` in
+  `scripts/generate-data.mjs`.
+- `⚠ N product(s) have no sales price` — those rows show `—` instead of a price,
+  usually because the price column is named something new.
 
-### How a sheet is read
+If nothing parses at all, the importer **refuses to overwrite** the existing data
+and exits with an error, so a bad run cannot wipe a working price sheet.
 
-- The **header row** is the first row containing an `SR No.` column.
-- A row with an SR number **starts a new product**; the rows beneath it, until
-  the next SR number, are that product's **diamond/stone line items**.
-- The product's diamond cost is the **sum** of its line items' diamond prices.
-- Gold, labour and the total are read from the product's own row.
-- Tabs named `Price List`, `Sheet1`, `Rates` or `Config` are skipped
-  (`SKIP_SHEETS` in the script).
+### Sheet layouts
+
+The importer handles both layouts Seyaa uses, and tells them apart on its own:
+
+- **Flat** — one row per product with a single `FINAL PRICE` column. This is what
+  the Hong Kong sheet uses.
+- **Grouped** — a row with an SR number starts a product, and the rows beneath it
+  are that product's diamond/stone line items; their diamond prices are summed
+  into the product's diamond cost.
+
+The result card adapts: with a flat sheet it shows one sales price, and with a
+grouped sheet it also shows the diamond/gold/labour split and the stone breakup
+table.
+
+Notes on column names:
+
+- The header row is the first row containing an `SR.NO.` column.
+- `GOLD WEIGHT` in the Hong Kong sheet holds the karat and colour (`14K WHITE`),
+  not a number, so it maps to the gold description.
+- Blank spacer rows are skipped.
+- Tabs named `Price List`, `Rates` or `Config` are skipped (`SKIP_SHEETS`).
+  `Sheet1` is **not** skipped — a single-tab export names its only data tab that.
 
 ## Search behaviour
 
 A search matches **either** the SR number or the stock code, so whichever number
-is printed on the tag will find the product. Spaces and case are ignored. With no
-exact hit, up to 8 partial matches are offered as suggestions.
+is printed on the tag will find the product. Case and spaces are ignored, so
+`s1146c` finds `S1146C`. With no exact hit, up to 8 partial matches — on the
+number or the design name — are offered as suggestions.
 
 ## Configuration
 
@@ -70,18 +115,13 @@ Everything that varies per exhibition lives in `lib/config.ts`:
 | Setting | What it does |
 | --- | --- |
 | `title` / `subtitle` | Shown in the header |
-| `coupon` | Set to `{ code: "EXPO15", percent: 15 }` for a one-click discount button, or `null` to hide it |
-| `showSpecialDiscount` | Shows the "Special discount (₹)" input for a negotiated amount |
-| `usingSampleData` | The sample-data banner; the importer turns this off for you |
+| `currency` | `USD` or `INR`; the importer keeps this in step with the sheet |
+| `coupon` | Set to `{ code: "HK15", percent: 15 }` for a one-click discount button, or `null` to hide it |
+| `showSpecialDiscount` | Shows the "Special discount" input for a negotiated amount |
+| `usingSampleData` | The placeholder-data banner; the importer turns this off |
 
 ## PDF quotes
 
 Any result can be exported as a branded PDF, and several products can be added to
 an export list and exported together with combined weight and payable totals. PDF
 generation runs entirely in the browser — nothing is uploaded anywhere.
-
-## Deploying
-
-A standard Next.js app — deploy to Vercel (or any Node host) with no environment
-variables. Because the price sheet is bundled, **changing prices means re-running
-the importer and redeploying**.
