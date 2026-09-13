@@ -5,6 +5,9 @@
   "compatibility_date": "2026-09-13",
   // OpenNext runs the Next.js server on Workers, which needs Node built-ins.
   "compatibility_flags": ["nodejs_compat"],
+  // Publish on the public <name>.<subdomain>.workers.dev URL. The portal has no
+  // login by design — anyone with the link can look up a stock number.
+  "workers_dev": true,
   "assets": {
     "directory": ".open-next/assets",
     "binding": "ASSETS"

@@ -29,25 +29,44 @@ npm run preview      # builds the worker and serves it locally
 
 ## Deploying to Cloudflare
 
-The project is configured as the Worker **`seyaa-exhibition`** (see
-`wrangler.jsonc`), separate from the existing `seyaa-order` Worker.
+The project is configured as the Worker **`seyaa-exhibition`** (`wrangler.jsonc`),
+separate from the existing `seyaa-order` Worker. `workers_dev` is on, so it
+publishes to a public `https://seyaa-exhibition.<your-subdomain>.workers.dev`
+URL. No environment variables or secrets are needed — the price sheet ships
+inside the app.
+
+**There is no login, by design.** Anyone with the link can look up a stock number
+and see the price. Nothing in the app reads a session, cookie or password, and
+there is no middleware.
+
+### Option A — from a terminal (two commands)
 
 ```bash
-npx wrangler login   # one time, opens a browser
-npm run deploy
+npx wrangler login   # one time, opens a browser to authorise
+npm run deploy       # builds the Worker and publishes it
 ```
 
-That builds the Worker and publishes it, printing the live
-`https://seyaa-exhibition.<your-subdomain>.workers.dev` URL. Re-running
-`npm run deploy` ships an update.
+`npm run deploy` prints the live URL when it finishes. Re-run it to ship an
+update.
 
-For automatic deploys on push instead, connect the repo in the Cloudflare
-dashboard under **Workers & Pages → Create → Import a repository**, with build
-command `npx opennextjs-cloudflare build` and the Worker directory left as the
-project root.
+### Option B — from the Cloudflare dashboard (no local tooling)
 
-No environment variables or secrets are needed — the price sheet ships inside
-the app.
+**Workers & Pages → Create → Import a repository →** pick `seyaa-exhibition`, then:
+
+| Field | Value |
+| --- | --- |
+| Production branch | the branch holding this code |
+| Build command | `npx opennextjs-cloudflare build` |
+| Deploy command | `npx wrangler deploy` |
+| Root directory | *(leave empty)* |
+
+Cloudflare then rebuilds and redeploys on every push to that branch.
+
+### Checking it locally first
+
+```bash
+npm run preview      # runs the built Worker on the real Workers runtime
+```
 
 ## Loading a new price sheet
 
@@ -56,7 +75,7 @@ npm run import-sheet -- /path/to/sheet.xlsx --currency=USD
 ```
 
 This reads every tab, writes `lib/stock/data.json`, and updates `lib/config.ts`
-with the currency. Re-run it whenever prices change, then `npm run deploy`.
+with the currency. Re-run it whenever prices change, then `npm run deploy` (or push, on Option B).
 
 The importer prints what it did:
 
