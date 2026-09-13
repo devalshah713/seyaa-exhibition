@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fafaf9; /* stone-50 */
+  --foreground: #1c1917; /* stone-900 */
+  color-scheme: light;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  /* Brand orange, sampled from the Seyaa Solitaire logo (600 = #dd611c).
+     Shades mirror Tailwind's amber scale so accent utilities map 1:1. */
+  --color-brand-50: #fcefe8;
+  --color-brand-100: #f9e3d6;
+  --color-brand-400: #e79060;
+  --color-brand-500: #e17437;
+  --color-brand-600: #dd611c;
+  --color-brand-700: #ba5118;
+  --color-brand-900: #7a350f;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}

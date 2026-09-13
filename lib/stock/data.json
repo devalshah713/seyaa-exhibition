@@ -1,0 +1,115 @@
+[
+  {
+    "srNo": "S0109",
+    "sourceTab": "Sample",
+    "date": "01-09-2026",
+    "design": "Sample — Solitaire Halo Ring",
+    "stockCode": "SMP-RING-01",
+    "location": "Showroom",
+    "goldDetails": "18K White Gold",
+    "inchSize": "—",
+    "grossWeight": 4.82,
+    "netWeight": 3.91,
+    "totalDiamondWeight": 0.95,
+    "totalStonePcs": 37,
+    "comments": "Placeholder product. Replace by importing the real Excel sheet.",
+    "price": {
+      "diamondInr": 182500,
+      "goldInr": 41300,
+      "laborInr": 12000,
+      "totalInr": 235800
+    },
+    "lineItems": [
+      {
+        "shape": "Round",
+        "sieveSize": "Centre",
+        "stoneWeightBreakup": 0.52,
+        "stonePcs": 1,
+        "pointers": 52,
+        "productCode": "RD-052",
+        "diamondPriceInr": 143000
+      },
+      {
+        "shape": "Round",
+        "sieveSize": "+1.10 -1.20",
+        "stoneWeightBreakup": 0.43,
+        "stonePcs": 36,
+        "pointers": 1.2,
+        "productCode": "RD-SML",
+        "diamondPriceInr": 39500
+      }
+    ]
+  },
+  {
+    "srNo": "A1396",
+    "sourceTab": "Sample",
+    "date": "01-09-2026",
+    "design": "Sample — Diamond Tennis Bracelet",
+    "stockCode": "SMP-BRAC-02",
+    "location": "Showroom",
+    "goldDetails": "18K Rose Gold",
+    "inchSize": "7.0",
+    "grossWeight": 11.4,
+    "netWeight": 9.62,
+    "totalDiamondWeight": 2.18,
+    "totalStonePcs": 84,
+    "comments": "Placeholder product. Replace by importing the real Excel sheet.",
+    "price": {
+      "diamondInr": 396000,
+      "goldInr": 101600,
+      "laborInr": 24500,
+      "totalInr": 522100
+    },
+    "lineItems": [
+      {
+        "shape": "Round",
+        "sieveSize": "+1.70 -1.80",
+        "stoneWeightBreakup": 2.18,
+        "stonePcs": 84,
+        "pointers": 2.6,
+        "productCode": "RD-TEN",
+        "diamondPriceInr": 396000
+      }
+    ]
+  },
+  {
+    "srNo": "P0247",
+    "sourceTab": "Sample",
+    "date": "01-09-2026",
+    "design": "Sample — Marquise Drop Pendant",
+    "stockCode": "SMP-PEND-03",
+    "location": "Showroom",
+    "goldDetails": "14K Yellow Gold",
+    "inchSize": "16.0",
+    "grossWeight": 2.97,
+    "netWeight": 2.44,
+    "totalDiamondWeight": 0.61,
+    "totalStonePcs": 22,
+    "price": {
+      "diamondInr": 88400,
+      "goldInr": 23900,
+      "laborInr": 8500,
+      "totalInr": 120800
+    },
+    "lineItems": [
+      {
+        "shape": "Marquise",
+        "sieveSize": "Centre",
+        "stoneWeightBreakup": 0.34,
+        "stonePcs": 1,
+        "pointers": 34,
+        "productCode": "MQ-034",
+        "diamondPriceInr": 61200
+      },
+      {
+        "shape": "Round",
+        "sieveSize": "+1.00 -1.10",
+        "stoneWeightBreakup": 0.27,
+        "stonePcs": 21,
+        "pointers": 1.3,
+        "productCode": "RD-SML",
+        "diamondPriceInr": 27200
+      }
+    ]
+  }
+]
