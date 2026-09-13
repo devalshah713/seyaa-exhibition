@@ -25,7 +25,7 @@ export const PORTAL = {
    * Lets a salesperson subtract a negotiated amount from the total.
    * Set to false to hide the input.
    */
-  showSpecialDiscount: true,
+  showSpecialDiscount: false,
 
   /**
    * Flipped to false once a real price sheet has been imported with

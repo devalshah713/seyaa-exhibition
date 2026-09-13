@@ -143,7 +143,7 @@ Everything that varies per exhibition lives in `lib/config.ts`:
 | `title` / `subtitle` | Shown in the header |
 | `currency` | `USD` or `INR`; the importer keeps this in step with the sheet |
 | `coupon` | Set to `{ code: "HK15", percent: 15 }` for a one-click discount button, or `null` to hide it |
-| `showSpecialDiscount` | Shows the "Special discount" input for a negotiated amount |
+| `showSpecialDiscount` | Shows the "Special discount" input for a negotiated amount; currently **off**, so the card shows the sheet price only |
 | `usingSampleData` | The placeholder-data banner; the importer turns this off |
 
 ## PDF quotes
